@@ -29,8 +29,8 @@ This section will cover hosting a Raven Shield server with [MarkMods.com](https:
 
 ### Linux
 
-This section will cover hosting a Raven Shield server with [DigitalOcean Droplets](https://www.digitalocean.com/products/droplets/).
+This section will cover hosting a Raven Shield server with [DigitalOcean Droplets](https://www.digitalocean.com/products/droplets/). You can also use these steps with your own Linux hardware for self-hosted servers.
 
 ### Windows
 
-This section will cover hosting a Raven Shield server with [Microsoft Azure](https://azure.microsoft.com/en-us/services/virtual-machines/).
+This section will cover hosting a Raven Shield server with [Microsoft Azure](https://azure.microsoft.com/en-us/services/virtual-machines/). You can also use these steps with your own Windows hardware for self-hosted servers.
