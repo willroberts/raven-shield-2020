@@ -53,7 +53,7 @@ The two primary files for server configuration are `system\RavenShield.ini` and 
 
 * In `RavenShield.ini`
   * If necessary, change the values of the server ports.
-    * `Port`: Default value is 6777, but set this to the value you are assigned
+    * `Port`: Default value is 6777, but set this to the value you are assigned. If connecting to your assigned port takes you to someone else's server, they have used your port. If this happens, add 10000 to every port number and try again.
     * `ServerBeaconPort`: Set to `Port` plus 1000 
     * `BeaconPort`: Set to `Port` plus 2000
     * `m_iRegSvrPort`: Set to `Port` minus 1000
