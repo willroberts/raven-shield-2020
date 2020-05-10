@@ -21,7 +21,7 @@ You can now play the campaign, a custom mission, or a training scenario. To unlo
 
 ### Multi-Player
 
-On September 4th 2016, Ubisoft shut down the authentication servers for Raven Shield. We use OpenRVS to point our clients at a new set of authentication servers so we can still play the game together.
+On September 4 2016, Ubisoft shut down the authentication servers for Raven Shield. We use OpenRVS to point our clients at a new set of authentication servers so we can still play the game together.
 
 1. Download the latest version of OpenRVS from [RVSGaming.org](http://rvsgaming.org/Downloads/).
 1. Open `readme.html` to read the documentation.
