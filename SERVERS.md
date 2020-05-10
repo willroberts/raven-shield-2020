@@ -53,7 +53,7 @@ This section will cover hosting a Raven Shield server with [MarkMods.com](https:
   1. Replace `RavenShield.mod` with [the copy from this repo](RavenShield.mod) for OpenRVS.
   1. Start the server again when finished. It should now be using the config files from the file manager.
 
-Take note of your IP address and port number, and skip ahead to [Publishing Your Server](https://github.com/ijemafe/raven-shield-2020/blob/master/SERVERS.md#publishing-your-server).
+When you finish, test your server and take note of your IP address and port number, and skip ahead to [Publishing Your Server](https://github.com/ijemafe/raven-shield-2020/blob/master/SERVERS.md#publishing-your-server).
 
 ### Method 2 (medium): Windows
 
@@ -61,7 +61,7 @@ This section will cover hosting a Raven Shield server with [Microsoft Azure](htt
 
 `TODO`: Test this on Azure and write instructions.
 
-Take note of your IP address and port number, and skip ahead to [Publishing Your Server](https://github.com/ijemafe/raven-shield-2020/blob/master/SERVERS.md#publishing-your-server).
+When you finish, test your server and take note of your IP address and port number, and skip ahead to [Publishing Your Server](https://github.com/ijemafe/raven-shield-2020/blob/master/SERVERS.md#publishing-your-server).
 
 ### Method 3 (hard): Linux
 
@@ -82,7 +82,7 @@ If you want to run multiple servers, you may do so on a single Linux VM. Simply 
 
 This will start the server attached to your current terminal window. In order to reliably keep the process running and restart it if it fails, create a `systemd` unit file based on the docs [here](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files).
 
-Take note of your IP address and port number.
+When you finish, test your server and take note of your IP address and port number.
 
 ### Publishing Your Server
 
