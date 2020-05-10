@@ -42,10 +42,8 @@ The two primary files for server configuration are `system\RavenShield.ini` and 
 
 This section will cover hosting a Raven Shield server with [MarkMods.com](https://www.markmods.com). MarkMods is one of the few vendors to still offer Raven Shield gameservers.
 
-From the [Raven Shield page](https://www.markmods.com/gameserverhosting/Rainbow%20Six%203:Raven%20Shield/), choose a number of player slots, a server location, and a billing frequency. Smaller servers will cost around $1/slot, while larger servers can be more efficient (around $0.50/slot). Finish the signup process.
-
-**Basic Setup**
-
+1. From the [Raven Shield page](https://www.markmods.com/gameserverhosting/Rainbow%20Six%203:Raven%20Shield/), choose a number of player slots, a server location, and a billing frequency. Smaller servers will cost around $1/slot, while larger servers can be more efficient (around $0.50/slot).
+1. Finish the signup process.
 1. Open your server in the control panel.
   1. Under Control Panel, Stop the server.
   1. Under Configuration, make sure `Use FTP config` is enabled. Save at the bottom.
