@@ -44,7 +44,23 @@ From the [Raven Shield page](https://www.markmods.com/gameserverhosting/Rainbow%
   1. Under File Manager, click `Open In Fullscreen` to start a minimal FTP client connected to your server. This will be the primary way you interact with the server's content and configuration.
     1. To open a file, click it in the UI. Save it to disk if you plan to make changes.
     1. To update a file, click `Upload Files` in the bottom left and choose the file to upload. It will replace the server's copy.
+  1. Install OpenRVS
+  1. Replace R6GameService.dll with a copy from Discord
+  1. Replace RavenShield.mod with a copy from Discord
   1. Start the server again when finished. It should now be using the config files from the file manager.
+
+**Adjusting Configs**
+
+The two primary files for server configuration are `system\RavenShield.ini` and `system\Server.ini`. Here are some common settings you may want to change:
+
+* In `RavenShield.ini`
+  * 
+* In `Server.ini`
+  * 
+
+**Publishing Your Server**
+
+Once the server is ready to go, you will need to visit the [SMClan forums](http://smclan.org/forum/42) and make a post requesting that Tony add your server (and port) to the OpenRVS server list.
 
 ### Linux
 
