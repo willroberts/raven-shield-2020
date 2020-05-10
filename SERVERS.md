@@ -64,6 +64,23 @@ Once the server is ready to go, you will need to visit the [SMClan forums](http:
 
 This section will cover hosting a Raven Shield server with [Microsoft Azure](https://azure.microsoft.com/en-us/services/virtual-machines/). You can also use these steps with your own Windows hardware for self-hosted servers.
 
+`TODO`: Test this on Azure and write instructions.
+
 ### Method 3 (hard): Linux
 
 This section will cover hosting a Raven Shield server with [DigitalOcean Droplets](https://www.digitalocean.com/products/droplets/). You can also use these steps with your own Linux hardware for self-hosted servers.
+
+This guide will cover starting one game server with no custom content. A Raven Shield dedicated server running vanilla content will use 1 CPU, 128MB of memory, and 1GB of disk space. In order to avoid running at capacity, look for VMs with 256MB of memory and 2GB of disk space.
+
+If you want to run multiple servers, you may do so on a single Linux VM. Simply add 1 CPU, 256MB of memory, and 2GB of disk space for each additional server you want to run on the same instance.
+
+1. Create an account on DigitalOcean
+1. Start a Droplet running the latest Ubuntu Server LTS in your preferred region
+1. Log into your Droplet as root and run the following one-time setup commands:
+   1. `dpkg --add-architecture i386` (for 32-bit support)
+   1. `apt update && apt install wine wine32` (install 32-bit Wine to run Raven Shield)
+1. Place your game files on the server, e.g. `/opt/rs`
+1. Enter the game's system directory with `cd /opt/rs/system`
+1. Start the game with `wine UCC.exe server -ini=RavenShield.init -serverconf=Server.ini`
+
+This will start the server attached to your current terminal window. You will need to configure your OS to more reliably run the server, including automatically restarting it if it crashes. For basic use cases, background the process with `&` or use an terminal windowing app like `screen`. For longer-term reliability, look into process managers like `systemd` and `monit`.
