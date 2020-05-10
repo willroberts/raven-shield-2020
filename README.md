@@ -4,6 +4,10 @@
 
 The game is frequently on sale for [under $5 on Steam](https://isthereanydeal.com/game/tomclancysrainbowsixiiigoldedition/history/). This edition contains the Athena Sword expansion but not Iron Wrath. Iron Wrath is out of scope for this guide, but it adds 8 maps, 5 game modes, and 6 firearms.
 
+## Community Resources
+
+* [Discord](https://discord.com/invite/QnXXqcK)
+
 ## Playing the Game
 
 ### Essential Improvements
