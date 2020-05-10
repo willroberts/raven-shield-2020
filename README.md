@@ -2,7 +2,7 @@
 
 ## Obtaining the Game
 
-The game is frequently on sale for [under $5 on Steam](https://isthereanydeal.com/game/tomclancysrainbowsixiiigoldedition/history/). This edition contains the Athena Sword expansion but not Iron Wrath. Iron Wrath is out of scope for this guide, but it adds 8 maps, 5 game modes, and 6 new firearms.
+The game is frequently on sale for [under $5 on Steam](https://isthereanydeal.com/game/tomclancysrainbowsixiiigoldedition/history/). This edition contains the Athena Sword expansion but not Iron Wrath. Iron Wrath is out of scope for this guide, but it adds 8 maps, 5 game modes, and 6 firearms.
 
 ## Playing the Game
 
@@ -16,6 +16,8 @@ The game is frequently on sale for [under $5 on Steam](https://isthereanydeal.co
 ### Multi-Player
 
 On September 4th 2016, Ubisoft shut down the authentication servers for Raven Shield. We use OpenRVS to point our clients at a new set of authentication servers so we can still play the game together.
+
+1. Install OpenRVS 1.4 (copy files in this repo for reference and link to upstream)
 
 ### Running a Server
 
