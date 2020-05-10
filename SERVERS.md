@@ -36,7 +36,7 @@ The two primary files for server configuration are `system\RavenShield.ini` and 
   * Under `[Engine.R6MapList]`
     * There is room for up to 32 maps in the map list. Each position in the list has an index (0-31) and two values to set:
       * `GameType` should be `R6Game.R6TeamDeathMatchGame` for PVP or `R6Game.R6TerroristHuntCoopGame` for PVE. See game documentation for more mode names.
-      * `Maps` should be set to the name of the map you want in the rotation
+      * `Maps` should be set to the name of the map you want in the rotation. Each `Maps[]` entry must have a corresponding `GameType[]` entry.
 
 ### Method 1 (easy): VPS
 
@@ -53,11 +53,15 @@ This section will cover hosting a Raven Shield server with [MarkMods.com](https:
   1. Replace `RavenShield.mod` with [the copy from this repo](RavenShield.mod) for OpenRVS.
   1. Start the server again when finished. It should now be using the config files from the file manager.
 
+Take note of your IP address and port number, and skip ahead to [Publishing Your Server](https://github.com/ijemafe/raven-shield-2020/blob/master/SERVERS.md#publishing-your-server).
+
 ### Method 2 (medium): Windows
 
 This section will cover hosting a Raven Shield server with [Microsoft Azure](https://azure.microsoft.com/en-us/services/virtual-machines/). You can also use these steps with your own Windows hardware for self-hosted servers.
 
 `TODO`: Test this on Azure and write instructions.
+
+Take note of your IP address and port number, and skip ahead to [Publishing Your Server](https://github.com/ijemafe/raven-shield-2020/blob/master/SERVERS.md#publishing-your-server).
 
 ### Method 3 (hard): Linux
 
@@ -78,6 +82,8 @@ If you want to run multiple servers, you may do so on a single Linux VM. Simply 
 
 This will start the server attached to your current terminal window. In order to reliably keep the process running and restart it if it fails, create a `systemd` unit file based on the docs [here](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files).
 
+Take note of your IP address and port number.
+
 ### Publishing Your Server
 
-Once the server is ready to go, you will need to visit the [SMClan forums](http://smclan.org/forum/42) and make a post requesting that Tony add your server (and port) to the OpenRVS server list.
+Once the server is ready to go, you will need to visit the [SMClan forums](http://smclan.org/forum/42) and make a post requesting that Tony add your server (and port) to the OpenRVS server list. Share the IP address and port number, as well as the name of the server and a bit of information about it.
