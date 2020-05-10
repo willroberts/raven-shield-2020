@@ -83,4 +83,4 @@ If you want to run multiple servers, you may do so on a single Linux VM. Simply 
 1. Enter the game's system directory with `cd /opt/rs/system`
 1. Start the game with `wine UCC.exe server -ini=RavenShield.init -serverconf=Server.ini`
 
-This will start the server attached to your current terminal window. You will need to configure your OS to more reliably run the server, including automatically restarting it if it crashes. For basic use cases, background the process with `&` or use an terminal windowing app like `screen`. For longer-term reliability, look into process managers like `systemd` and `monit`.
+This will start the server attached to your current terminal window. In order to reliably keep the process running and restart it if it fails, create a `systemd` unit file based on the docs [here](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files).
