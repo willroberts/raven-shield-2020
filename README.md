@@ -30,6 +30,10 @@ On September 4 2016, Ubisoft shut down the authentication servers for Raven Shie
 1. Launch the game and set your Internet connection speed to `T3` in-game.
 1. (Optional) Edit `Servers.list` to choose which servers are displayed when RVSGaming servers cannot be reached. The names in this file are for reference; the in-game server name will be retrieved from the server. You can force the usage of this file by editing `openrvs.ini` and changing the value of `ServerListURL` to an invalid URL, such as `http://127.0.0.1/servers`.
 
+## Custom Content
+
+See [CUSTOM.md](CUSTOM.md)
+
 ## Hosting a Server
 
 See [SERVERS.md](SERVERS.md).
