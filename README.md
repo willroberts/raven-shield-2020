@@ -26,6 +26,7 @@ On September 4 2016, Ubisoft shut down the authentication servers for Raven Shie
 1. Download the latest version of OpenRVS from [RVSGaming.org](http://rvsgaming.org/Downloads/).
 1. Open `readme.html` to read the documentation.
 1. Copy `openrvs.ini`, `OpenRVS.u`, `R6ClassDefines.ini`, and `Servers.list` to `<YourGameDir>\system\`.
+1. Launch the game and set your Internet connection speed to `T3`.
 1. (Optional) Edit `Servers.list` to choose which servers are displayed when RVSGaming servers cannot be reached. The names in this file are for reference; the in-game server name will be retrieved from the server. You can force the usage of this file by editing `openrvs.ini` and changing the value of `ServerListURL` to an invalid URL, such as `http://127.0.0.1/servers`.
 
 ## Hosting a Server
