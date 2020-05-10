@@ -1,26 +1,8 @@
-
 # Instructions for playing Rainbow Six 3: Raven Shield in 2020 and beyond.
 
 ## Hosting a Server
 
-### Method 1 (easy): VPS
-
-This section will cover hosting a Raven Shield server with [MarkMods.com](https://www.markmods.com). MarkMods is one of the few vendors to still offer Raven Shield gameservers.
-
-From the [Raven Shield page](https://www.markmods.com/gameserverhosting/Rainbow%20Six%203:Raven%20Shield/), choose a number of player slots, a server location, and a billing frequency. Smaller servers will cost around $1/slot, while larger servers can be more efficient (around $0.50/slot). Finish the signup process.
-
-**Basic Setup**
-
-1. Open your server in the control panel.
-  1. Under Control Panel, Stop the server.
-  1. Under Configuration, make sure `Use FTP config` is enabled. Save at the bottom.
-  1. Under File Manager, click `Open In Fullscreen` to start a minimal FTP client connected to your server. This will be the primary way you interact with the server's content and configuration. To open a file, click it in the UI. Save it to disk if you plan to make changes. To update a file, click `Upload Files` in the bottom left and choose the file to upload. It will replace the server's copy.
-  1. Install OpenRVS by uploading its files according to the instructions.
-  1. Replace `R6GameService.dll` with [the copy from this repo](R6GameService.dll) for OpenRVS.
-  1. Replace `RavenShield.mod` with [the copy from this repo](RavenShield.mod) for OpenRVS.
-  1. Start the server again when finished. It should now be using the config files from the file manager.
-
-**Adjusting Configs**
+### Configuration
 
 The two primary files for server configuration are `system\RavenShield.ini` and `system\Server.ini`. Here are some common settings you may want to change:
 
@@ -55,6 +37,23 @@ The two primary files for server configuration are `system\RavenShield.ini` and 
     * There is room for up to 32 maps in the map list. Each position in the list has an index (0-31) and two values to set:
       * `GameType` should be `R6Game.R6TeamDeathMatchGame` for PVP or `R6Game.R6TerroristHuntCoopGame` for PVE. See game documentation for more mode names.
       * `Maps` should be set to the name of the map you want in the rotation
+
+### Method 1 (easy): VPS
+
+This section will cover hosting a Raven Shield server with [MarkMods.com](https://www.markmods.com). MarkMods is one of the few vendors to still offer Raven Shield gameservers.
+
+From the [Raven Shield page](https://www.markmods.com/gameserverhosting/Rainbow%20Six%203:Raven%20Shield/), choose a number of player slots, a server location, and a billing frequency. Smaller servers will cost around $1/slot, while larger servers can be more efficient (around $0.50/slot). Finish the signup process.
+
+**Basic Setup**
+
+1. Open your server in the control panel.
+  1. Under Control Panel, Stop the server.
+  1. Under Configuration, make sure `Use FTP config` is enabled. Save at the bottom.
+  1. Under File Manager, click `Open In Fullscreen` to start a minimal FTP client connected to your server. This will be the primary way you interact with the server's content and configuration. To open a file, click it in the UI. Save it to disk if you plan to make changes. To update a file, click `Upload Files` in the bottom left and choose the file to upload. It will replace the server's copy.
+  1. Install OpenRVS by uploading its files according to the instructions.
+  1. Replace `R6GameService.dll` with [the copy from this repo](R6GameService.dll) for OpenRVS.
+  1. Replace `RavenShield.mod` with [the copy from this repo](RavenShield.mod) for OpenRVS.
+  1. Start the server again when finished. It should now be using the config files from the file manager.
 
 ### Method 2 (medium): Windows
 
