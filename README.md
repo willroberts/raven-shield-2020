@@ -32,7 +32,19 @@ On September 4 2016, Ubisoft shut down the authentication servers for Raven Shie
 
 ### VPS
 
-This section will cover hosting a Raven Shield server with [MarkMods.com](https://www.markmods.com).
+This section will cover hosting a Raven Shield server with [MarkMods.com](https://www.markmods.com). MarkMods is one of the few vendors to still offer Raven Shield gameservers.
+
+From the [Raven Shield page](https://www.markmods.com/gameserverhosting/Rainbow%20Six%203:Raven%20Shield/), choose a number of player slots, a server location, and a billing frequency. Smaller servers will cost around $1/slot, while larger servers can be more efficient (around $0.50/slot). Finish the signup process.
+
+**Basic Setup**
+
+1. Open your server in the control panel.
+  1. Under Control Panel, Stop the server.
+  1. Under Configuration, make sure `Use FTP config` is enabled. Save at the bottom.
+  1. Under File Manager, click `Open In Fullscreen` to start a minimal FTP client connected to your server. This will be the primary way you interact with the server's content and configuration.
+    1. To open a file, click it in the UI. Save it to disk if you plan to make changes.
+    1. To update a file, click `Upload Files` in the bottom left and choose the file to upload. It will replace the server's copy.
+  1. Start the server again when finished. It should now be using the config files from the file manager.
 
 ### Linux
 
