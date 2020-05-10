@@ -13,6 +13,8 @@ The game is frequently on sale for [under $5 on Steam](https://isthereanydeal.co
 
 ### Single-Player
 
+You can now play the campaign, a custom mission, or a training scenario. To unlock all maps in custom missions, press `~` at the main menu and enter the command `unlockall`.
+
 ### Multi-Player
 
 On September 4th 2016, Ubisoft shut down the authentication servers for Raven Shield. We use OpenRVS to point our clients at a new set of authentication servers so we can still play the game together.
