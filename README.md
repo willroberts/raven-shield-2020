@@ -9,7 +9,7 @@ The game is frequently on sale for [under $5 on Steam](https://isthereanydeal.co
 ### Essential Improvements
 
 1. Check the [PC Gaming Wiki](https://www.pcgamingwiki.com/wiki/Tom_Clancy%27s_Rainbow_Six_3:_Raven_Shield) for any tweaks you might want to perform.
-2. Borderless Gaming will run the game in a fullscreen window, allowing you to instantly alt-tab without waiting to leave fullscreen mode. It's $4 on Steam or you can [download it from Github for free](https://github.com/Codeusa/Borderless-Gaming/releases/).
+2. Borderless Gaming will run the game in a fullscreen window, allowing you to instantly alt-tab. You can [download it from Github for free](https://github.com/Codeusa/Borderless-Gaming/releases/).
 
 ### Single-Player
 
@@ -17,18 +17,20 @@ The game is frequently on sale for [under $5 on Steam](https://isthereanydeal.co
 
 On September 4th 2016, Ubisoft shut down the authentication servers for Raven Shield. We use OpenRVS to point our clients at a new set of authentication servers so we can still play the game together.
 
-1. Install OpenRVS 1.4 (copy files in this repo for reference and link to upstream)
+1. Download the latest version of OpenRVS from [RVSGaming.org](http://rvsgaming.org/Downloads/).
+2. Copy `openrvs.ini`, `OpenRVS.u`, `R6ClassDefines.ini`, and `Servers.list` to `<YourGameDir>/system`.
+3. Edit `Servers.list` to choose which servers are displayed when RVSGaming servers cannot be reached. You can force the usage of this file by editing `openrvs.ini` and changing the value of `ServerListURL` to an invalid URL.
 
-### Running a Server
+## Hosting a Server
 
-#### VPS
+### VPS
 
 This section will cover hosting a Raven Shield server with [MarkMods.com](https://www.markmods.com).
 
-#### Linux
+### Linux
 
 This section will cover hosting a Raven Shield server with [DigitalOcean Droplets](https://www.digitalocean.com/products/droplets/).
 
-#### Windows
+### Windows
 
 This section will cover hosting a Raven Shield server with [Microsoft Azure](https://azure.microsoft.com/en-us/services/virtual-machines/).
