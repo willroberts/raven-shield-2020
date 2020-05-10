@@ -56,10 +56,6 @@ The two primary files for server configuration are `system\RavenShield.ini` and 
       * `GameType` should be `R6Game.R6TeamDeathMatchGame` for PVP or `R6Game.R6TerroristHuntCoopGame` for PVE. See game documentation for more mode names.
       * `Maps` should be set to the name of the map you want in the rotation
 
-**Publishing Your Server**
-
-Once the server is ready to go, you will need to visit the [SMClan forums](http://smclan.org/forum/42) and make a post requesting that Tony add your server (and port) to the OpenRVS server list.
-
 ### Method 2 (medium): Windows
 
 This section will cover hosting a Raven Shield server with [Microsoft Azure](https://azure.microsoft.com/en-us/services/virtual-machines/). You can also use these steps with your own Windows hardware for self-hosted servers.
@@ -84,3 +80,7 @@ If you want to run multiple servers, you may do so on a single Linux VM. Simply 
 1. Start the game with `wine UCC.exe server -ini=RavenShield.init -serverconf=Server.ini`
 
 This will start the server attached to your current terminal window. In order to reliably keep the process running and restart it if it fails, create a `systemd` unit file based on the docs [here](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files).
+
+### Publishing Your Server
+
+Once the server is ready to go, you will need to visit the [SMClan forums](http://smclan.org/forum/42) and make a post requesting that Tony add your server (and port) to the OpenRVS server list.
