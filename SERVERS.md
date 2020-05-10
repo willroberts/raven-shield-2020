@@ -14,7 +14,7 @@ The two primary files for server configuration are `system\RavenShield.ini` and 
     * `m_iRegSvrPort`: Set to `Port` minus 1000
     * `m_iRSCDKeyPort`: Set to `Port` minus 2000
     * `m_iModCDKeyPort`: Set to `Port` plus 3000
-  * If hosting custom content, you will need to also purchase web hosting in order to avoid slow download speeds for players. Configure a file server with the content your players will need to download, and set `RedirectToURL` to its URL.
+  * If hosting custom content, you will need to also purchase web hosting in order to avoid slow download speeds for players. Configure a file server with the content your players will need to download, and set `RedirectToURL` to its URL. See [CUSTOM.md](CUSTOM.md) for more info
 * In `Server.ini`
   * Under `[Engine.R6ServerInfo]`
     * `ServerName` should contain the name of your server
@@ -67,7 +67,7 @@ When you finish, test your server and take note of your IP address and port numb
 
 This section will cover hosting a Raven Shield server with [DigitalOcean Droplets](https://www.digitalocean.com/products/droplets/). You can also use these steps with your own Linux hardware for self-hosted servers.
 
-This guide will cover starting one game server with no custom content. A Raven Shield dedicated server running vanilla content will use 1 CPU, 128MB of memory, and 1GB of disk space. In order to avoid running at capacity, look for VMs with 256MB of memory and 2GB of disk space.
+A Raven Shield dedicated server running only the base game content will use 1 CPU, 128MB of memory, and 1GB of disk space. In order to avoid running at capacity, look for VMs with 256MB of memory and 2GB of disk space.
 
 If you want to run multiple servers, you may do so on a single Linux VM. Simply add 1 CPU, 256MB of memory, and 2GB of disk space for each additional server you want to run on the same instance.
 
