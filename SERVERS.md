@@ -55,15 +55,7 @@ This section will cover hosting a Raven Shield server with [MarkMods.com](https:
 
 When you finish, test your server and take note of your IP address and port number, and skip ahead to [Publishing Your Server](https://github.com/ijemafe/raven-shield-2020/blob/master/SERVERS.md#publishing-your-server).
 
-### Method 2 (medium): Windows
-
-This section will cover hosting a Raven Shield server with [Microsoft Azure](https://azure.microsoft.com/en-us/services/virtual-machines/). You can also use these steps with your own Windows hardware for self-hosted servers.
-
-`TODO`: Test this on Azure and write instructions.
-
-When you finish, test your server and take note of your IP address and port number, and skip ahead to [Publishing Your Server](https://github.com/ijemafe/raven-shield-2020/blob/master/SERVERS.md#publishing-your-server).
-
-### Method 3 (hard): Linux
+### Method 2 (hard): Linux
 
 This section will cover hosting a Raven Shield server with [DigitalOcean Droplets](https://www.digitalocean.com/products/droplets/). You can also use these steps with your own Linux hardware for self-hosted servers.
 
