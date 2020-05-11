@@ -43,7 +43,8 @@ To play offline:
 
 To play online:
 1. Launch Raven Shield from Steam
-1. Join an Athena Sword server without activating Athena Sword in settings
+1. Click 'Settings' -> 'Custom Game' -> 'Raven Shield' -> 'Activate'
+1. Join an OpenRVS server hosting Athena Sword content
 
 ## Iron Wrath
 
@@ -58,7 +59,8 @@ To play offline:
 
 To play online:
 1. Launch Raven Shield from Steam
-1. Join an Iron Wrath server without activating Iron Wrath in settings
+1. Click 'Settings' -> 'Custom Game' -> 'Raven Shield' -> 'Activate'
+1. Join an OpenRVS server hosting Iron Wrath content
 
 Hosting Iron Wrath content on servers requires using `UnrealEd` to modify the maps for compatibility with the patched client. Process is not yet documented.
 
