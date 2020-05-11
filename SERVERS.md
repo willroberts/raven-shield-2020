@@ -51,7 +51,7 @@ This section will cover hosting a Raven Shield server with [MarkMods.com](https:
   1. Under File Manager, click `Open In Fullscreen` to start a minimal FTP client connected to your server. This will be the primary way you interact with the server's content and configuration. To open a file, click it in the UI. Save it to disk if you plan to make changes. To update a file, click `Upload Files` in the bottom left and choose the file to upload. It will replace the server's copy.
   1. Install OpenRVS by uploading its files according to the instructions.
   1. Replace `system\R6GameService.dll` with [the copy from this repo](R6GameService.dll) for OpenRVS.
-  1. Replace `Mods\RavenShield.mod` with [the copy from this repo](RavenShield.mod) for OpenRVS.
+  1. Replace `Mods\RavenShield.mod` with [the copy from this repo](RavenShield.mod). This will enable the OpenRVS server code and beacon code.
   1. Start the server again when finished. It should now be using the config files from the file manager.
 
 When you finish, test your server and take note of your IP address and port number, and skip ahead to [Publishing Your Server](https://github.com/ijemafe/raven-shield-2020/blob/master/SERVERS.md#publishing-your-server).
@@ -72,7 +72,7 @@ If you want to run multiple servers, you may do so on a single Linux VM. Simply 
 1. Place your game files on the server, e.g. `/opt/rs`
 1. Install OpenRVS by uploading its files according to the instructions.
 1. Replace `system\R6GameService.dll` with [the copy from this repo](R6GameService.dll) for OpenRVS.
-1. Replace `Mods\RavenShield.mod` with [the copy from this repo](RavenShield.mod) for OpenRVS.
+1. Replace `Mods\RavenShield.mod` with [the copy from this repo](RavenShield.mod). This will enable the OpenRVS server code and beacon code.
 1. Enter the game's system directory with `cd /opt/rs/system`
 1. Start the game with `wine UCC.exe server -ini=RavenShield.init -serverconf=Server.ini`
 
