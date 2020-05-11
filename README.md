@@ -2,7 +2,7 @@
 
 ## Obtaining the Game
 
-The game is frequently on sale for [under $5 on Steam](https://isthereanydeal.com/game/tomclancysrainbowsixiiigoldedition/history/). This edition contains the Athena Sword expansion but not Iron Wrath, which can be downloaded separately (see below).
+Rainbow Six 3: Raven Shield (March 18 2003) is frequently on sale for [under $5 on Steam](https://isthereanydeal.com/game/tomclancysrainbowsixiiigoldedition/history/). This edition contains the Athena Sword expansion but not Iron Wrath, which can be downloaded separately (see below).
 
 ## Community Resources
 
@@ -33,7 +33,7 @@ On September 4 2016, Ubisoft shut down the authentication servers for Raven Shie
 
 ## Athena Sword
 
-Athena Sword is an expansion which adds 19 maps (including 8 designed for multiplayer), 4 game modes, and 7 weapons. In the Steam version of Raven Shield, Athena Sword is installed separately in your Steam Library.
+Athena Sword (March 9 2004) is an expansion which adds 19 maps (including 8 designed for multiplayer), 4 game modes, and 7 weapons. In the Steam version of Raven Shield, Athena Sword is installed separately in your Steam Library.
 
 Note: Installing Athena Sword in Steam may overwrite the `<YourGameDir>\system\R6ClassDefines.ini` file. Be sure to install OpenRVS after installing Athena Sword.
 
@@ -48,7 +48,7 @@ To play online:
 
 ## Iron Wrath
 
-Iron Wrath is a free expansion which adds 18 maps (including 8 designed for multiplayer), 5 game modes, and 6 weapons. In order to add Iron Wrath to a Steam installation, follow these steps:
+Iron Wrath (June 9 2005) is an expansion which adds 18 maps (including 8 designed for multiplayer), 5 game modes, and 6 weapons. In order to add Iron Wrath to a Steam installation, follow these steps:
 
 1. Download Iron Wrath's unpacked files [here](https://www.moddb.com/games/tom-clancys-rainbow-six-3-raven-shield/downloads/rainbow-six-3-iron-wrath-manual-installation).
 1. Copy `IronWrath` and `IronWrath.mod` to `<YourGameDir>\Mods`.
