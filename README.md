@@ -1,4 +1,4 @@
-# Playing Rainbow Six 3: Raven Shield in 2020 and beyond.
+# Playing Rainbow Six 3: Raven Shield in 2020 and beyond
 
 ## Obtaining the Game
 
