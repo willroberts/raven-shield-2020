@@ -8,7 +8,7 @@ Custom maps will often come as a `.exe` file which extracts its contents when yo
 
 If the map is already extracted, it will generally have a series of folders to be copied into your game directory: `maps` for the map itself, `system` for the map config, `staticmeshes` and `textures` for some maps, etc. Copy the contents of these folders into their corresponding game folders to install the content.
 
-When playing on servers which allow you to download custom maps, these files will be played in the `<YourGameDir>\Cache` directory. See `Cache.ini` to identify which file is which.
+When playing on servers which allow you to download custom maps, these files will be placed in the `<YourGameDir>\Cache` directory. See `Cache.ini` to identify which file is which.
 
 ### Sounds
 
