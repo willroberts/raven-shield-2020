@@ -14,6 +14,10 @@ When playing on servers which allow you to download custom content, these files 
 
 The quickest way to get all the sound files you need for OpenRVS servers is the [AllR6 Sound Pack](http://allr6.com/discuss/viewtopic.php?id=68&i=1), which includes Athena Sword and Iron Wrath sounds.
 
+## Clearing the Content Cache
+
+If you want to clear the cache of custom content you've downloaded, open `<YourGameDir>\Cache` and delete its contents. The `.ini` file will be automatically recreated by the game.
+
 ## Hosting Custom Content
 
 There are two things to consider when running servers which host custom content:
