@@ -33,9 +33,17 @@ On September 4 2016, Ubisoft shut down the authentication servers for Raven Shie
 
 ## Athena Sword
 
-Athena Sword is an expansion which adds 19 maps (including 8 designed for multiplayer), 4 game modes, and 7 weapons. In the Steam version of Raven Shield, Athena Sword is installed separately in your Steam Library. Launch Athena Sword from Steam, and activate the expansion content under "Custom Game" in the settings menu.
+Athena Sword is an expansion which adds 19 maps (including 8 designed for multiplayer), 4 game modes, and 7 weapons. In the Steam version of Raven Shield, Athena Sword is installed separately in your Steam Library.
 
-Note: Installing Athena Sword in Steam may overwrite the `<YourGameDir>\system\R6ClassDefines.ini` file. Be sure to use install the OpenRVS version after installing Athena Sword.
+Note: Installing Athena Sword in Steam may overwrite the `<YourGameDir>\system\R6ClassDefines.ini` file. Be sure to install OpenRVS after installing Athena Sword.
+
+To play offline:
+1. Launch Athena Sword from Steam
+1. Click 'Settings' -> 'Custom Game' -> 'Athena Sword' -> 'Activate'
+
+To play online:
+1. Launch Raven Shield from Steam
+1. Join an Athena Sword server without activating Athena Sword in settings
 
 ## Iron Wrath
 
@@ -43,8 +51,14 @@ Iron Wrath is a free expansion which adds 18 maps (including 8 designed for mult
 
 1. Download Iron Wrath's unpacked files [here](https://www.moddb.com/games/tom-clancys-rainbow-six-3-raven-shield/downloads/rainbow-six-3-iron-wrath-manual-installation).
 1. Copy `IronWrath` and `IronWrath.mod` to `<YourGameDir>\Mods`.
-1. Launch the game and activate Iron Wrath under "Custom Game" in the settings menu.
-1. Activate Raven Shield later to switch back.
+
+To play offline:
+1. Launch Raven Shield from Steam
+1. Click 'Settings' -> 'Custom Game' -> 'Iron Wrath' -> 'Activate'
+
+To play online:
+1. Launch Raven Shield from Steam
+1. Join an Iron Wrath server without activating Iron Wrath in settings
 
 Hosting Iron Wrath content on servers requires using `UnrealEd` to modify the maps for compatibility with the patched client. Process is not yet documented.
 
