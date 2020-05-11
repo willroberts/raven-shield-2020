@@ -2,7 +2,7 @@
 
 ## Obtaining the Game
 
-Rainbow Six 3: Raven Shield (March 18 2003) is frequently on sale for [under $5 on Steam](https://isthereanydeal.com/game/tomclancysrainbowsixiiigoldedition/history/). This edition contains the Athena Sword expansion but not Iron Wrath, which can be downloaded separately (see below).
+Raven Shield, released March 18 2003, is frequently on sale for [under $5 on Steam](https://isthereanydeal.com/game/tomclancysrainbowsixiiigoldedition/history/). This edition contains the Athena Sword expansion but not Iron Wrath, which can be downloaded separately (see below).
 
 ## Community Resources
 
