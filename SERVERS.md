@@ -24,6 +24,7 @@ The two primary files for server configuration are `system\RavenShield.ini` and 
     * `RoundTime` is the length of each round in seconds
     * `BetweenRoundTime` is how long players have to select their gear
     * `RoundsPerMatch` sets the number of rounds before the map rotates
+    * `RotateMap` will prevent map rotation until a successful round in co-op when set to `True`
     * `UsePassword` should be set to `False` for public servers
     * `AdminPassword` should be set and `UseAdminPassword` should be set to `True`   
     * `FriendlyFire` may be set to `False` if desired
