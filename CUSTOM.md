@@ -12,6 +12,6 @@ When playing on servers which allow you to download custom maps, these files wil
 
 ### Sounds
 
-The quickest way to get all the sound files you need is the [AllR6 Sound Pack](http://allr6.com/discuss/viewtopic.php?id=68&i=1), which includes Athena Sword and Iron Wrath sounds.
+The quickest way to get all the sound files you need for OpenRVS servers is the [AllR6 Sound Pack](http://allr6.com/discuss/viewtopic.php?id=68&i=1), which includes Athena Sword and Iron Wrath sounds.
 
 ## Hosting Custom Content
