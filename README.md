@@ -37,14 +37,13 @@ On September 4 2016, Ubisoft shut down the authentication servers for Raven Shie
 
 Athena Sword (March 9 2004) is an expansion which adds 19 maps (including 8 designed for multiplayer), 4 game modes, and 7 weapons. In the Steam version of Raven Shield, Athena Sword is installed separately in your Steam Library.
 
-Note: Installing Athena Sword in Steam may overwrite the `<YourGameDir>\system\R6ClassDefines.ini` file. Be sure to install OpenRVS after installing Athena Sword.
+Note: Installing Athena Sword in Steam may overwrite `<YourGameDir>\system\R6ClassDefines.ini`. Be sure to install OpenRVS after installing Athena Sword.
 
 To play offline:
 1. Launch Athena Sword from Steam
 1. Click 'Settings' -> 'Custom Game' -> 'Athena Sword' -> 'Activate'
 
 To play online:
-1. Launch Raven Shield from Steam
 1. Click 'Settings' -> 'Custom Game' -> 'Raven Shield' -> 'Activate'
 1. Join an OpenRVS server hosting Athena Sword content
 
@@ -60,7 +59,6 @@ To play offline:
 1. Click 'Settings' -> 'Custom Game' -> 'Iron Wrath' -> 'Activate'
 
 To play online:
-1. Launch Raven Shield from Steam
 1. Click 'Settings' -> 'Custom Game' -> 'Raven Shield' -> 'Activate'
 1. Join an OpenRVS server hosting Iron Wrath content
 
