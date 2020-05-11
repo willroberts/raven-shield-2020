@@ -42,10 +42,7 @@ Note: Installing Athena Sword in Steam may overwrite `<YourGameDir>\system\R6Cla
 To play offline:
 1. Launch Athena Sword from Steam
 1. Click 'Settings' -> 'Custom Game' -> 'Athena Sword' -> 'Activate'
-
-To play online:
-1. Click 'Settings' -> 'Custom Game' -> 'Raven Shield' -> 'Activate'
-1. Join an OpenRVS server hosting Athena Sword content
+1. To revert, activate 'Raven Shield' instead.
 
 ## Iron Wrath
 
@@ -57,12 +54,7 @@ Iron Wrath (June 9 2005) is an expansion which adds 18 maps (including 8 designe
 To play offline:
 1. Launch Raven Shield from Steam
 1. Click 'Settings' -> 'Custom Game' -> 'Iron Wrath' -> 'Activate'
-
-To play online:
-1. Click 'Settings' -> 'Custom Game' -> 'Raven Shield' -> 'Activate'
-1. Join an OpenRVS server hosting Iron Wrath content
-
-Hosting Iron Wrath content on servers requires using `UnrealEd` to modify the maps for compatibility with the patched client. Process is not yet documented.
+1. To revert, activate 'Raven Shield' instead.
 
 ## Custom Content
 
