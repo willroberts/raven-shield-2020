@@ -25,10 +25,10 @@ You can now play the campaign, a custom mission, or a training scenario. To unlo
 
 On September 4 2016, Ubisoft shut down the authentication servers for Raven Shield. We use OpenRVS to point our clients at a new set of authentication servers so we can still play the game together.
 
-1. Download the latest version of OpenRVS from [RVSGaming.org](https://rvsgaming.org/Downloads/).
+1. Download the latest version of OpenRVS from [RVSGaming.org](http://rvsgaming.org/Downloads/).
 1. Open `readme.html` to read the documentation.
 1. Copy `openrvs.ini`, `OpenRVS.u`, `R6ClassDefines.ini`, and `Servers.list` to `<YourGameDir>\system\`.
-1. You will need to update `system/R6GameService.dll` in order to remove another place where the game makes outbound calls to Ubisoft servers. There are two ways to update this: either run Chriswak's [R6GameService_Patcher](https://rvsgaming.org/Downloads/DllPatcher/R6GameService_Patcher.zip) ([source](https://github.com/eth0up/R6GameServicePatcher)) or replace `system\R6GameService.dll` with [the prebuilt copy from this repo](R6GameService.dll). If unpatched, the game will hang any time it tries to reach Ubisoft servers during regular gameplay.
+1. You will need to update `system/R6GameService.dll` in order to remove another place where the game makes outbound calls to Ubisoft servers. There are two ways to update this: either run Chriswak's [R6GameService_Patcher](http://rvsgaming.org/Downloads/DllPatcher/R6GameService_Patcher.zip) ([source](https://github.com/eth0up/R6GameServicePatcher)) or replace `system\R6GameService.dll` with [the prebuilt copy from this repo](R6GameService.dll). If unpatched, the game will hang any time it tries to reach Ubisoft servers during regular gameplay.
 1. (Optional) Edit `Servers.list` to choose which servers are displayed when RVSGaming servers cannot be reached. The names in this file are for reference; the in-game server name will be retrieved from the server. You can force the usage of this file by editing `openrvs.ini` and changing the value of `ServerListURL` to an invalid URL, such as `http://127.0.0.1/servers`.
 1. Launch the game and set your Internet connection speed to `T3` in the settings menu.
 1. Join a server and party like it's 2003!
