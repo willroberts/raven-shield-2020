@@ -69,6 +69,9 @@ If you want to run multiple servers, you may do so on a single Linux VM. Simply 
    1. `dpkg --add-architecture i386` (for 32-bit support)
    1. `apt update && apt install wine wine32` (install 32-bit Wine to run Raven Shield)
 1. Place your game files on the server, e.g. `/opt/rs`
+1. Install OpenRVS by uploading its files according to the instructions.
+1. Replace `system\R6GameService.dll` with [the copy from this repo](R6GameService.dll) for OpenRVS.
+1. Replace `Mods\RavenShield.mod` with [the copy from this repo](RavenShield.mod) for OpenRVS.
 1. Enter the game's system directory with `cd /opt/rs/system`
 1. Start the game with `wine UCC.exe server -ini=RavenShield.init -serverconf=Server.ini`
 
