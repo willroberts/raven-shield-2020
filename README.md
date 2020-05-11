@@ -36,4 +36,4 @@ See [CUSTOM.md](CUSTOM.md)
 
 ## Hosting a Server
 
-See [SERVERS.md](SERVERS.md).
+See [SERVERS.md](SERVERS.md)
