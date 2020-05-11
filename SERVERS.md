@@ -33,7 +33,7 @@ The two primary files for server configuration are `system\RavenShield.ini` and 
     * `CamTeamOnly` should be set to `False` in co-op mode
     * `NbTerro` is the number of opponents in co-op mode
     * `DiffLevel` sets the NPC difficulty. Default is 2
-    * `AIBkp` may be set to false to disable AI followers in co-op mode   
+    * `AIBkp` may be set to `False` to disable AI followers in co-op mode   
   * Under `[Engine.R6MapList]`
     * There is room for up to 32 maps in the map list. Each position in the list has an index (0-31) and two values to set:
       * `GameType` should be `R6Game.R6TeamDeathMatchGame` for PVP or `R6Game.R6TerroristHuntCoopGame` for PVE. See game documentation for more mode names.
