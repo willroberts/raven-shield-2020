@@ -31,6 +31,16 @@ On September 4 2016, Ubisoft shut down the authentication servers for Raven Shie
 1. Launch the game and set your Internet connection speed to `T3` in-game.
 1. Join a server and party like it's 2003!
 
+## Iron Wrath
+
+In order to add Iron Wrath to a Steam installation, follow these steps:
+
+1. Download Iron Wrath's unpacked files [here](https://www.moddb.com/games/tom-clancys-rainbow-six-3-raven-shield/downloads/rainbow-six-3-iron-wrath-manual-installation).
+1. Copy `IronWrath` and `IronWrath.mod` to `<YourGameDir>\Mods`.
+1. Launch the game and enable Iron Wrath under custom content in the settings menu.
+
+Hosting Iron Wrath content requires using `UnrealEd` to modify the maps for compatibility with the patched client.
+
 ## Custom Content
 
 See [CUSTOM.md](CUSTOM.md)
