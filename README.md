@@ -35,6 +35,8 @@ On September 4 2016, Ubisoft shut down the authentication servers for Raven Shie
 
 Athena Sword is an expansion which adds 19 maps (including 8 designed for multiplayer), 4 game modes, and 7 weapons. In the Steam version of Raven Shield, Athena Sword is installed separately in your Steam Library. Launch Athena Sword from Steam, and activate the expansion content under "Custom Game" in the settings menu.
 
+Note: Installing Athena Sword in Steam may overwrite the `<YourGameDir>\system\R6ClassDefines.ini` file. Be sure to use install the OpenRVS version after installing Athena Sword.
+
 ## Iron Wrath
 
 Iron Wrath is a free expansion which adds 18 maps (including 8 designed for multiplayer), 5 game modes, and 6 weapons. In order to add Iron Wrath to a Steam installation, follow these steps:
