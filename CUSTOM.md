@@ -1,4 +1,4 @@
-# Custom Content in Rainbow Six 3: Raven Shield
+# Mods and Custom Content
 
 ## Installing Custom Content
 
