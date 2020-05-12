@@ -23,7 +23,7 @@ You can now play the campaign, a custom mission, or a training scenario. To unlo
 
 ### Multi-Player
 
-On September 4 2016, Ubisoft shut down the authentication servers for Raven Shield. We use OpenRVS to point our clients at a new set of authentication servers so we can still play the game together.
+On September 4 2016, Ubisoft shut down the authentication servers for Raven Shield. We use OpenRVS to point our clients at a new set of servers so we can still play the game together.
 
 1. Download the latest version of OpenRVS from [RVSGaming.org](http://rvsgaming.org/Downloads/).
 1. Open `readme.html` to read the documentation.
@@ -32,6 +32,8 @@ On September 4 2016, Ubisoft shut down the authentication servers for Raven Shie
 1. (Optional) Edit `Servers.list` to choose which servers are displayed when RVSGaming servers cannot be reached. The names in this file are for reference; the in-game server name will be retrieved from the server. You can force the usage of this file by editing `openrvs.ini` and changing the value of `ServerListURL` to an invalid URL, such as `http://127.0.0.1/servers`.
 1. Launch the game and set your Internet connection speed to `T3` in the settings menu.
 1. Join a server and party like it's 2003!
+
+Note: Since we are using a fixed list of servers, some features will no longer work. The list cannot be filtered (using the bottom menu) or sorted, and latency will always be displayed as `1000`.
 
 ## Athena Sword
 
