@@ -21,6 +21,10 @@ For novelty purposes, there are also [single-player](https://www.moddb.com/games
    1. Add Raven Shield to "Favorites" in Borderless Gaming by selecting it in the left-side list and clicking the `>` button
    1. Close and relaunch Raven Shield to use it with Borderless Gaming
 1. Check the [PC Gaming Wiki](https://www.pcgamingwiki.com/wiki/Tom_Clancy%27s_Rainbow_Six_3:_Raven_Shield) for any tweaks you might want to perform.
+1. Rebind the controls as desired. These are some common changes to make it handle like modern FPS games:
+   1. Bind `Run` to `Shift`
+   1. Bind `Reload` to `R`
+   1. Bind `Zoom` to `RMB`
 
 ### Single-Player
 
