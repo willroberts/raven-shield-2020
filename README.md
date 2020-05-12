@@ -40,28 +40,9 @@ On September 4 2016, Ubisoft shut down the authentication servers for Raven Shie
 
 Note: Since we are using a fixed list of servers, some features will no longer work. The list cannot be filtered (using the bottom menu) or sorted, and latency will always be displayed as `1000`.
 
-## Athena Sword
+## Expansions
 
-Athena Sword (March 9 2004) is an expansion which adds 19 maps (including 8 designed for multiplayer), 4 game modes, and 7 weapons. In the Steam version of Raven Shield, Athena Sword is installed separately in your Steam Library.
-
-Note: Installing Athena Sword in Steam may overwrite `<YourGameDir>\system\R6ClassDefines.ini`. Be sure to install OpenRVS after installing Athena Sword.
-
-To play offline:
-1. Launch Athena Sword from Steam
-1. Click 'Settings' -> 'Custom Game' -> 'Athena Sword' -> 'Activate'
-1. To revert, activate 'Raven Shield' instead.
-
-## Iron Wrath
-
-Iron Wrath (June 9 2005) is an expansion which adds 18 maps (including 8 designed for multiplayer), 5 game modes, and 6 weapons. In order to add Iron Wrath to a Steam installation, follow these steps:
-
-1. Download Iron Wrath's unpacked files [here](https://www.moddb.com/games/tom-clancys-rainbow-six-3-raven-shield/downloads/rainbow-six-3-iron-wrath-manual-installation).
-1. Copy `IronWrath` and `IronWrath.mod` to `<YourGameDir>\Mods`.
-
-To play offline:
-1. Launch Raven Shield from Steam
-1. Click 'Settings' -> 'Custom Game' -> 'Iron Wrath' -> 'Activate'
-1. To revert, activate 'Raven Shield' instead.
+See [EXPANSIONS.md](EXPANSIONS.md)
 
 ## Custom Content
 
