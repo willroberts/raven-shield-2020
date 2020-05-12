@@ -49,7 +49,7 @@ Players can edit `Servers.list` to choose which servers are displayed when RVSGa
 
 See [EXPANSIONS.md](EXPANSIONS.md)
 
-## Custom Content
+## Mods and Custom Content
 
 See [CUSTOM.md](CUSTOM.md)
 
