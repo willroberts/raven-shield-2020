@@ -35,7 +35,7 @@ You can now play the campaign, a custom mission, or a training scenario. To unlo
 
 On September 4 2016, Ubisoft shut down the authentication servers for Raven Shield. We use OpenRVS to point our clients at a new set of servers so we can still play the game together.
 
-1. Download the latest version of OpenRVS from [RVSGaming.org](http://rvsgaming.org/Downloads/).
+1. Download the latest version of OpenRVS from [RVSGaming.org](http://rvsgaming.org/Downloads/). There is [a copy of OpenRVS 1.4 in this repo](OpenRVS1.4.zip).
 1. Copy `openrvs.ini`, `OpenRVS.u`, `R6ClassDefines.ini`, and `Servers.list` to `<YourGameDir>\system\`.
 1. You will need to update `system/R6GameService.dll` in order to remove another place where the game makes outbound calls to Ubisoft servers. Either run Chriswak's [R6GameService_Patcher](http://rvsgaming.org/Downloads/DllPatcher/R6GameService_Patcher.zip) ([source](https://github.com/eth0up/R6GameServicePatcher)) or use [the prebuilt copy from this repo](R6GameService.dll). If unpatched, the game will hang any time it tries to reach Ubisoft servers during regular gameplay.
 1. Launch the game and set your Internet connection speed to `T3` in the settings menu to avoid throttling your connection.
