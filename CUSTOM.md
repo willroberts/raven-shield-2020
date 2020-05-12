@@ -18,15 +18,13 @@ The quickest way to get all the sound files you need for AllR6 servers is the [A
 
 If you want to clear the cache of custom content you've downloaded, open `<YourGameDir>\Cache` and delete its contents. The `.ini` file will be automatically recreated by the game.
 
-## Hosting Custom Content
+## Running Servers with Custom Content
 
-There are two things to consider when running servers which host custom content:
-
-### 1. You'll need additional disk space for the content
+#### You'll need additional disk space for the content
 
 A basic Linux Droplet will give you 25GB of storage, which may not be enough to host your custom content. If that's the case, you'll need to upgrade to a larger Droplet type.
 
-### 2. Players will need to download the content
+#### Players will need to download the content
 
 You may find in testing that download speeds for custom content are much slower than expected. When using a VPS to host game servers, one can expect download speeds of roughly 20KB/s. A basic web host or file server can generally transfer at speeds up to 100Mb/s in short bursts. In order to offload this activity to a faster server/network, we can use Raven Shield's built-in download redirection:
 
