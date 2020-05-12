@@ -25,6 +25,7 @@ For novelty purposes, there are also [single-player](https://www.moddb.com/games
    1. Bind `Run` to `Shift`
    1. Bind `Reload` to `R`
    1. Bind `Zoom` to `RMB`
+1. If you plan to play online, set your name in the Multiplayer Options.
 
 ### Single-Player
 
