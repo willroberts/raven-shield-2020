@@ -35,4 +35,4 @@ You may find in testing that download speeds for custom content are much slower 
 1. On your game server, edit `RavenShield.ini` and look for the `RedirectToURL` option. Set this to the URL of your file server, e.g. `http://www.myserver.net/`.
 1. Restart your game server to pick up the new config.
 
-When users connect to your game server, they will be instructed to download all custom content from the file server, resulting in significantly faster downloads.
+When users connect to your game server, they will be instructed to download all custom content from the file server, resulting in significantly faster downloads. If the client fails to retrieve the file from the file server for any reason, it will fall back to downloading the file from the game server, resulting in slow speeds. If this happens, cancel and rejoin the server to restart the download from the file server.
