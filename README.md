@@ -14,13 +14,13 @@ Note: This doc uses `<YourGameDir>` to refer to the place you have Raven Shield 
 
 ### Essential Improvements
 
+1. Check the [PC Gaming Wiki](https://www.pcgamingwiki.com/wiki/Tom_Clancy%27s_Rainbow_Six_3:_Raven_Shield) for any tweaks you might want to perform.
 1. Borderless Gaming will run the game in a fullscreen window, allowing you to instantly alt-tab. You can [download it from Github for free](https://github.com/Codeusa/Borderless-Gaming/releases/).
    1. Edit `<YourGameDir>\system\RavenShield.ini` and set `StartupFullscreen` to `False`
    1. Launch Borderless Gaming
    1. Launch Raven Shield
    1. Add Raven Shield to "Favorites" in Borderless Gaming by selecting it in the left-side list and clicking the `>` button
    1. Close and relaunch Raven Shield to use it with Borderless Gaming
-1. Check the [PC Gaming Wiki](https://www.pcgamingwiki.com/wiki/Tom_Clancy%27s_Rainbow_Six_3:_Raven_Shield) for any tweaks you might want to perform.
 1. Rebind the controls as desired. For example:
    1. Bind `Run` to `Shift`
    1. Bind `Reload` to `R`
