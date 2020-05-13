@@ -25,4 +25,4 @@ To play offline:
 
 ## Servers
 
-Until OpenRVS is ported to the Athena Sword and Iron Wrath expansions/mods, the only way to play expansion content is to join a Raven Shield (not AS/IW) server hosting AS/IW content, such as `ALLR6 | AthenaSword+IronWrath` (`104.243.46.138:7779`).
+Unless OpenRVS is manually ported to the Athena Sword and Iron Wrath expansions/mods, the only way to play expansion content is to join a Raven Shield (not AS/IW) server hosting AS/IW content, such as `ALLR6 | AthenaSword+IronWrath` (`104.243.46.138:7779`).
