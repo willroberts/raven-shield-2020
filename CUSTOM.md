@@ -39,4 +39,4 @@ When users connect to your game server, they will be instructed to download all 
 
 ### Raven Shield SDK
 
-See [Twi's Raven Shield SDK on ModDB](https://www.moddb.com/mods/raven-shield-software-development-kit).
+See [Twi's Raven Shield SDK on ModDB](https://www.moddb.com/mods/raven-shield-software-development-kit). This includes a copy of the game's source code (version 1.56).
