@@ -69,6 +69,9 @@ If you want to run multiple servers, you may do so on a single Linux VM. Simply 
 1. Log into your Droplet as root and run the following one-time setup commands:
    1. `dpkg --add-architecture i386` (for 32-bit support)
    1. `apt update && apt install wine wine32` (install 32-bit Wine to run Raven Shield)
+1. Create a directory to store the game files, e.g. `/opt/rs`
+1. Create a non-root user which will run the server
+1. Change ownership of `/opt/rs` to this user with `chown <YourUser> /opt/rs`
 1. Place your game files on the server, e.g. `/opt/rs`
 1. Install OpenRVS by uploading its files according to the instructions.
 1. Replace `system\R6GameService.dll` with [the prebuilt copy from this repo](R6GameService.dll). This will eliminate another outbound call to Ubisoft's servers.
