@@ -45,7 +45,7 @@ Players can edit `Servers.list` to choose which servers are displayed when RVSGa
 
 ### Servers
 
-Here is a snapshot of known servers as of May 2020:
+Here is a snapshot of known servers as of May 2020. See [RVSGaming.org](http://rvsgaming.org) for the latest list.
 
 Server Name | Address
 --- | ---
