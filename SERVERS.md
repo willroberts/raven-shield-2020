@@ -69,17 +69,18 @@ If you want to run multiple servers, you may do so on a single Linux VM. Simply 
 1. Log into your Droplet as root and run the following one-time setup commands:
    1. `dpkg --add-architecture i386` (for 32-bit support)
    1. `apt update && apt install wine wine32` (install 32-bit Wine to run Raven Shield)
-1. Create a directory to store the game files, e.g. `/opt/rs`
-1. Create a non-root user which will run the server
-1. Change ownership of `/opt/rs` to this user with `chown <YourUser> /opt/rs`
-1. Place your game files on the server, e.g. `/opt/rs`
-1. Install OpenRVS by uploading its files according to the instructions.
-1. Replace `system\R6GameService.dll` with [the prebuilt copy from this repo](R6GameService.dll). This will eliminate another outbound call to Ubisoft's servers.
-1. Replace `Mods\RavenShield.mod` with [the copy from this repo](RavenShield.mod). This will enable the OpenRVS server code and beacon code.
-1. Enter the game's system directory with `cd /opt/rs/system`
-1. Start the game with `wine UCC.exe server -ini=RavenShield.init -serverconf=Server.ini`
+1. Still as root, create a non-root user which will run the server. Then run these commands:
+   1. `mkdir /opt/rs` (create a place to store the game files)
+   1. `chown <YourUser> /opt/rs` (give your user ownership of the game directory)
+1. Log into the Droplet as your non-root user
+   1. Place your game files on the server, e.g. `/opt/rs`
+   1. Install OpenRVS by uploading its files according to the instructions.
+   1. Replace `system\R6GameService.dll` with [the prebuilt copy from this repo](R6GameService.dll). This will eliminate another outbound call to Ubisoft's servers.
+   1. Replace `Mods\RavenShield.mod` with [the copy from this repo](RavenShield.mod). This will enable the OpenRVS server code and beacon code.
+   1. Enter the game's system directory with `cd /opt/rs/system`
+   1. Start the game with `wine UCC.exe server -ini=RavenShield.init -serverconf=Server.ini`
 
-This will start the server attached to your current terminal window. In order to reliably keep the process running and restart it when it crashes, create a `systemd` unit file based on the docs [here](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files).
+This will start the server attached to your current terminal window. In order to reliably keep the process running and restart it when it crashes, create a `systemd` unit file, based on the docs [here](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files), which runs the wine command above.
 
 When you finish, test your server and take note of your IP address and port number.
 
