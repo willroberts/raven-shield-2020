@@ -8,7 +8,7 @@ The two primary files for server configuration are `system\RavenShield.ini` and 
 
 * In `RavenShield.ini`
   * If necessary, change the values of the server ports.
-    * `Port`: Default value is 6777, but set this to the value you are assigned. If connecting to your assigned port takes you to someone else's server, someone may have used your port. If this happens, add 10 to every port number and try again.
+    * `Port`: Default value is 6777
     * `ServerBeaconPort`: Set to `Port` plus 1000 
     * `BeaconPort`: Set to `Port` plus 2000
     * `m_iRegSvrPort`: Set to `Port` minus 1000
@@ -52,6 +52,8 @@ This section will cover hosting a Raven Shield server with [MarkMods.com](https:
   1. Install OpenRVS by uploading its files according to the instructions.
   1. Replace `system\R6GameService.dll` with [the prebuilt copy from this repo](R6GameService.dll). This will eliminate another outbound call to Ubisoft's servers.
   1. Replace `Mods\RavenShield.mod` with [the copy from this repo](RavenShield.mod). This will enable the OpenRVS server code and beacon code.
+  1. Edit `RavenShield.ini` and `Server.ini` as desired
+     1. In `RavenShield.ini`, set the `Port` value to your assigned port from MarkMods. If connecting to your assigned port takes you to someone else's server, someone may have used your port. If this happens, add 10 to every port number and try again.
   1. Start the server again when finished. It should now be using the config files from the file manager.
 
 When you finish, test your server and take note of your IP address and port number, and skip ahead to [Publishing Your Server](https://github.com/ijemafe/raven-shield-2020/blob/master/SERVERS.md#publishing-your-server).
