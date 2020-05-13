@@ -25,7 +25,7 @@ Note: This doc uses `<YourGameDir>` to refer to the place you have Raven Shield 
    1. Bind `Run` to `Shift`
    1. Bind `Reload` to `R`
    1. Bind `Zoom` to `RMB`
-1. If you plan to play online, set your name in the Multiplayer Options.
+1. If you'd like to play online, set your name in the Multiplayer Options.
 
 ### Single-Player
 
