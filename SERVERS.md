@@ -1,8 +1,6 @@
-# Playing Rainbow Six 3: Raven Shield in 2020 and beyond
+# Hosting Servers
 
-## Hosting a Server
-
-### Configuration
+## Configuration Files
 
 The two primary files for server configuration are `system\RavenShield.ini` and `system\Server.ini`. Here are some common settings you may want to change:
 
@@ -39,7 +37,7 @@ The two primary files for server configuration are `system\RavenShield.ini` and 
       * `GameType` should be `R6Game.R6TeamDeathMatchGame` for PVP or `R6Game.R6TerroristHuntCoopGame` for PVE. See game documentation for more mode names.
       * `Maps` should be set to the name of the map you want in the rotation. Each `Maps[]` entry must have a corresponding `GameType[]` entry.
 
-### Method 1 (easy): VPS
+## Method 1 (easy): VPS
 
 This section will cover hosting a Raven Shield server with [MarkMods.com](https://www.markmods.com). MarkMods is one of the few vendors to still offer Raven Shield gameservers.
 
@@ -58,7 +56,7 @@ This section will cover hosting a Raven Shield server with [MarkMods.com](https:
 
 When you finish, test your server and take note of your IP address and port number, and skip ahead to [Publishing Your Server](https://github.com/ijemafe/raven-shield-2020/blob/master/SERVERS.md#publishing-your-server).
 
-### Method 2 (hard): Linux
+## Method 2 (hard): Linux
 
 This section will cover hosting a Raven Shield server with [DigitalOcean Droplets](https://www.digitalocean.com/products/droplets/). You can also use these steps with your own Linux hardware for self-hosted servers.
 
@@ -86,7 +84,7 @@ This will start the server attached to your current terminal window. In order to
 
 When you finish, test your server and take note of your IP address and port number.
 
-### Publishing Your Server
+## Publishing Your Server
 
 Once the server is ready to go, join the [Discord](https://discord.com/invite/QnXXqcK) and enter the `#general` or `#techsupport` channel. Share the IP address and port number, as well as the name of the server and a bit of information about it.
 
