@@ -39,8 +39,10 @@ When users connect to your game server, they will be instructed to download all 
 
 ## Creating Custom Content
 
-### Raven Shield SDK
+### Creating Maps
 
-For map development, see the [RvSMaps.com guide](http://rvsmaps.smclan.org/tut_sounds.htm).
+See the [RvSMaps.com guide](http://rvsmaps.smclan.org/tut_sounds.htm).
 
-For mod development, see [Twi's Raven Shield SDK on ModDB](https://www.moddb.com/mods/raven-shield-software-development-kit). This includes a copy of the game's source code (version 1.56).
+### Creating Mods
+
+See [Twi's Raven Shield SDK on ModDB](https://www.moddb.com/mods/raven-shield-software-development-kit). This includes a copy of the game's source code (version 1.56).
