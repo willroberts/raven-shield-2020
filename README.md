@@ -48,6 +48,7 @@ Players can edit `Servers.list` to choose which servers are displayed when RVSGa
 Here is a snapshot of the servers as of May 2020:
 
 Server Name | Address
+--- | ---
 24/7 Deathmatch | 107.172.191.114:7777
 ALLR6.com Missions | 64.187.238.46:11777
 ALLR6 Tango Hunt | 64.187.238.45:7779
