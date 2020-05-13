@@ -10,6 +10,8 @@ Raven Shield (released 2003) is typically [$3-10 on Steam](https://isthereanydea
 
 ## Playing the Game
 
+Note: This doc uses `<YourGameDir>` to refer to the place you have Raven Shield installed. For most users, this will be `C:\Program Files (x86)\Steam\steamapps\common\Rainbow Six 3 Gold`.
+
 ### Essential Improvements
 
 1. Borderless Gaming will run the game in a fullscreen window, allowing you to instantly alt-tab. You can [download it from Github for free](https://github.com/Codeusa/Borderless-Gaming/releases/).
