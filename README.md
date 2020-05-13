@@ -47,25 +47,26 @@ Players can edit `Servers.list` to choose which servers are displayed when RVSGa
 
 Here is a snapshot of the servers as of May 2020:
 
-107.172.191.114:7777 | ~24/7 Deathmatch~
-64.187.238.46:11777 | ALLR6.com Missions +
-64.187.238.45:7779 | ALLR6 Tango Hunt
-64.187.238.44:12777 | ALLR6 Tango Hunt 2
-5.9.50.39:8777 | ALLR6 Europe TH
-104.243.46.138:9777 | ALLR6 Original Maps Only
-104.243.46.138:14777 | ALLR6 TDM Original Maps
-104.243.46.138:7779 | ALLR6 AthenaSword+IronWrath
-89.46.223.5:7777 | FFS-ATS-FUN-SFPD serveur
-66.151.255.13:7877 | IEF Everything Server
-72.251.228.169:7777 | OBSOLETESUPERSTARS.COM
-185.24.221.23:7777 | SMC Suppressed Stealth
-185.24.221.23:7778 | SMC Suppressed Action
-108.178.44.218:8977 | ~~
-66.151.255.14:8777 | ~< SSHQ COOP Server>~
-24.201.194.168:7777 | (Srgt)Server
-108.178.44.218:7877 | The Freedom Server
-64.187.238.45:6777 | Classic Maps 3v3
-64.187.238.46:21777 | Classic Maps T-Hunt
+Server Name | Address
+24/7 Deathmatch | 107.172.191.114:7777
+ALLR6.com Missions | 64.187.238.46:11777
+ALLR6 Tango Hunt | 64.187.238.45:7779
+ALLR6 Tango Hunt 2 | 64.187.238.44:12777
+ALLR6 Europe TH | 5.9.50.39:8777
+ALLR6 Original Maps Only | 104.243.46.138:9777
+ALLR6 TDM Original Maps | 104.243.46.138:14777
+ALLR6 AthenaSword+IronWrath | 104.243.46.138:7779
+FFS-ATS-FUN-SFPD serveur | 89.46.223.5:7777
+IEF Everything Server | 66.151.255.13:7877
+OBSOLETESUPERSTARS.COM | 72.251.228.169:7777
+SMC Suppressed Stealth | 185.24.221.23:7777
+SMC Suppressed Action | 185.24.221.23:7778
+-- | 108.178.44.218:8977
+SSHQ COOP Server | 66.151.255.14:8777
+(Srgt)Server | 24.201.194.168:7777
+The Freedom Server | 108.178.44.218:7877
+Classic Maps 3v3 | 64.187.238.45:6777
+Classic Maps T-Hunt | 64.187.238.46:21777
 
 ## Expansions
 
