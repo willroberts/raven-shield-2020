@@ -41,7 +41,9 @@ When users connect to your game server, they will be instructed to download all 
 
 ### Creating Maps
 
-See the [RvSMaps.com guide](http://rvsmaps.smclan.org/tut_sounds.htm).
+The map editor, `UnrealEd`, can be found on your hard drive at `<YourGameDir>\system\UnrealEd.exe`.
+
+See the [RvSMaps.com guide](http://rvsmaps.smclan.org/tut_sounds.htm) for more info.
 
 ### Creating Mods
 
