@@ -2,9 +2,7 @@
 
 ## Obtaining the Game
 
-Raven Shield, released March 18 2003, is frequently on sale for [under $5 on Steam](https://isthereanydeal.com/game/tomclancysrainbowsixiiigoldedition/history/). This edition contains the Athena Sword expansion but not Iron Wrath, which can be downloaded separately (see [EXPANSIONS.md](EXPANSIONS.md)).
-
-For novelty purposes, there are also [single-player](https://www.moddb.com/games/tom-clancys-rainbow-six-3-raven-shield/downloads/rainbow-six-3-raven-shield-demo) and [multi-player](https://www.moddb.com/games/tom-clancys-rainbow-six-3-raven-shield/downloads/raven-shield-mp-demo-1-1) demos still available for download, also released in 2003.
+Raven Shield (released 2003) is frequently on sale for [under $5 on Steam](https://isthereanydeal.com/game/tomclancysrainbowsixiiigoldedition/history/). This edition contains the Athena Sword expansion but not Iron Wrath (see [EXPANSIONS.md](EXPANSIONS.md)).
 
 ## Community Resources
 
@@ -33,7 +31,7 @@ You can now play the campaign, a custom mission, or a training scenario. To unlo
 
 ### Multi-Player
 
-On September 4 2016, Ubisoft shut down the authentication servers for Raven Shield. We use OpenRVS to point our clients at a new set of servers so we can still play the game together.
+Ubisoft shut down the authentication servers for Raven Shield in 2016, so we use OpenRVS to point our clients at a new set of servers.
 
 1. Download the latest version of OpenRVS from [RVSGaming.org](http://rvsgaming.org/Downloads/). There is [a copy of OpenRVS 1.4 in this repo](OpenRVS1.4.zip).
 1. Copy `openrvs.ini`, `OpenRVS.u`, `R6ClassDefines.ini`, and `Servers.list` to `<YourGameDir>\system\`.
