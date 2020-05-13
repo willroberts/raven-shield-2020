@@ -25,7 +25,4 @@ To play offline:
 
 ## Servers
 
-There are two ways to play Athena Sword and Iron Wrath content online:
-
-1. Join a Raven Shield (not AS/IW) server hosting AS/IW content, such as `ALLR6 | AthenaSword+IronWrath` (`104.243.46.138:7779`)
-1. Port OpenRVS to Athena Sword and Iron Wrath (fairly large project)
+Until OpenRVS is ported to the Athena Sword and Iron Wrath expansions/mods, the only way to play expansion content is to join a Raven Shield (not AS/IW) server hosting AS/IW content, such as `ALLR6 | AthenaSword+IronWrath` (`104.243.46.138:7779`).
