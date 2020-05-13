@@ -88,6 +88,6 @@ When you finish, test your server and take note of your IP address and port numb
 
 ### Publishing Your Server
 
-Once the server is ready to go, you will need to visit the [SMClan forums](http://smclan.org/forum/42) and make a post requesting that Tony add your server (and port) to the OpenRVS server list. Share the IP address and port number, as well as the name of the server and a bit of information about it.
+Once the server is ready to go, join the Discord and enter the `#general` or `#techsupport` channel. Share the IP address and port number, as well as the name of the server and a bit of information about it.
 
 Once the server is added to the list, it will automatically appear when searching for games in multiplayer. Until then, you can use your server by joining its IP.
