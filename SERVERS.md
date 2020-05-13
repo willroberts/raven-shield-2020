@@ -73,7 +73,7 @@ If you want to run multiple servers, you may do so on a single Linux VM. Simply 
    1. `mkdir /opt/rs` (create a place to store the game files)
    1. `chown <YourUser> /opt/rs` (give your user ownership of the game directory)
 1. Log into the Droplet as your non-root user
-   1. Place your game files on the server, e.g. `/opt/rs`
+   1. Copy the game files to `/opt/rs` on the server
    1. Install OpenRVS by uploading its files according to the instructions.
    1. Replace `system\R6GameService.dll` with [the prebuilt copy from this repo](R6GameService.dll). This will eliminate another outbound call to Ubisoft's servers.
    1. Replace `Mods\RavenShield.mod` with [the copy from this repo](RavenShield.mod). This will enable the OpenRVS server code and beacon code.
