@@ -34,3 +34,9 @@ You may find in testing that download speeds for custom content are much slower 
 1. Restart your game server to pick up the new config.
 
 When users connect to your game server, they will be instructed to download all custom content from the file server, resulting in significantly faster downloads. If the client fails to retrieve the file from the file server for any reason, it will fall back to downloading the file from the game server, resulting in slow speeds. If this happens, the player can cancel and rejoin the server to restart the download from the file server.
+
+## Creating Custom Content
+
+### Raven Shield SDK
+
+See [Twi's Raven Shield SDK on ModDB](https://www.moddb.com/mods/raven-shield-software-development-kit).
