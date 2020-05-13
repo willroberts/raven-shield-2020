@@ -4,6 +4,8 @@
 
 ### Maps
 
+Two large sources of custom maps are [rvs.go2.rip](https://rvs.go2.rip/maps) and [woody2000.com](http://www.woody2000.com/download.php?list.2).
+
 Custom maps will often come as a `.exe` file which extracts its contents when you run it. You can point these at your game directory to have it put files in the right places. If you have security concerns about running such a program, you can alternatively run the program inside a Windows XP VM and then take out the resulting files.
 
 If the map is already extracted, it will generally have a series of folders to be copied into your game directory: `maps` for the map itself, `system` for the map config, `staticmeshes` and `textures` for some maps, etc. Copy the contents of these folders into their corresponding game folders to install the content.
@@ -39,4 +41,6 @@ When users connect to your game server, they will be instructed to download all 
 
 ### Raven Shield SDK
 
-See [Twi's Raven Shield SDK on ModDB](https://www.moddb.com/mods/raven-shield-software-development-kit). This includes a copy of the game's source code (version 1.56).
+For map development, see the [RvSMaps.com guide](http://rvsmaps.smclan.org/tut_sounds.htm).
+
+For mod development, see [Twi's Raven Shield SDK on ModDB](https://www.moddb.com/mods/raven-shield-software-development-kit). This includes a copy of the game's source code (version 1.56).
