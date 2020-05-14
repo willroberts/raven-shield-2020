@@ -24,7 +24,7 @@ If you want to clear the cache of custom content you've downloaded, open `<YourG
 
 #### Disk Space Requirements
 
-A basic Linux Droplet will give you 25GB of storage, which may not be enough to host your custom content. If that's the case, you'll need to upgrade to a larger Droplet type.
+A basic Linux Droplet (see [SERVERS.md](SERVERS.md)) will give you 25GB of storage, which may not be enough to host your custom content. If that's the case, you'll need to upgrade to a larger Droplet type.
 
 #### Download Speeds
 
