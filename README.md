@@ -41,7 +41,7 @@ Ubisoft shut down the authentication servers for Raven Shield in 2016, so we use
 1. Download the latest version of OpenRVS from [RVSGaming.org](http://rvsgaming.org/Downloads/). There is [a copy of OpenRVS 1.4 in this repo](OpenRVS1.4.zip).
 1. Copy `openrvs.ini`, `OpenRVS.u`, `R6ClassDefines.ini`, and `Servers.list` to `<YourGameDir>\system\`.
 1. You will need to update `system\R6GameService.dll` in order to remove another place where the game makes outbound calls to Ubisoft servers. Either run Chriswak's [R6GameService_Patcher](http://rvsgaming.org/Downloads/DllPatcher/R6GameService_Patcher.zip) ([source](https://github.com/eth0up/R6GameServicePatcher)) or use [the prebuilt copy from this repo](R6GameService.dll). If unpatched, the game will hang any time it tries to reach Ubisoft servers during regular gameplay.
-1. Launch the game and set your Internet connection speed to either `T1` or `T3` in the settings menu to raise Unreal Engine's `netspeed` to 20Kb/s.
+1. Launch the game and set your Internet connection speed to either `T1` or `T3` in the settings menu to raise Unreal Engine's `netspeed` to 20KB/s.
 1. Join a server and party like it's 2003!
 
 Note: Since we are using a fixed list of servers, some features will no longer work. The list cannot be filtered (using the bottom menu) or sorted, and latency will always be displayed as `1000`.
