@@ -2,7 +2,9 @@
 
 ## Obtaining the Game
 
-Raven Shield (released 2003) is typically [$3-10 on Steam](https://isthereanydeal.com/game/tomclancysrainbowsixiiigoldedition/history/). This edition contains the Athena Sword expansion but not Iron Wrath (see [EXPANSIONS.md](EXPANSIONS.md)).
+Raven Shield (released 2003) is typically [$3-10 on Steam](https://isthereanydeal.com/game/tomclancysrainbowsixiiigoldedition/history/). You can also get it on [UPlay](https://store.ubi.com/upc/us/tom-clancy-s-rainbow-six--3-gold/58aeb87e29e1236d368b4567.html). This edition contains the Athena Sword expansion but not Iron Wrath (see [EXPANSIONS.md](EXPANSIONS.md)).
+
+Alternatively, you can use your original CDs if you also patch to version 1.60.
 
 ## Community Resources
 
