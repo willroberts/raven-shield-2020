@@ -23,6 +23,7 @@ Note: This doc uses `<YourGameDir>` to refer to the place you have Raven Shield 
    1. Launch Raven Shield
    1. Add Raven Shield to "Favorites" in Borderless Gaming by selecting it in the left-side list and clicking the `>` button
    1. Close and relaunch Raven Shield to use it with Borderless Gaming
+   1. If you have issues getting the game to run in a borderless fullscreen window, try the `Delay Borderless Window` option by right-clicking Raven Shield in Borderless Gaming
 1. Rebind the controls as desired. For example:
    1. Bind `Run` to `Shift`
    1. Bind `Reload` to `R`
