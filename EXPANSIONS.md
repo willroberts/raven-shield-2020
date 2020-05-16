@@ -27,4 +27,4 @@ To play offline:
 
 OpenRVS targets the base game, and the expansions above are considered mods by the game engine.
 
-Community map creator Legacy has ported the expansion maps to the base game, and you can play them online on the `ALLR6 | AthenaSword+IronWrath` server (`104.243.46.138:7779`).
+Community map creator Legacy has ported the expansion maps to the base game, and you can download and play them online on the `ALLR6 | AthenaSword+IronWrath` server (`104.243.46.138:7779`).
