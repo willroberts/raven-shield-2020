@@ -23,6 +23,8 @@ To play offline:
 1. Click 'Settings' -> 'Custom Game' -> 'Iron Wrath' -> 'Activate'
 1. To revert, activate 'Raven Shield' instead.
 
-## Servers
+## Playing Online
 
-Unless OpenRVS is manually ported to the Athena Sword and Iron Wrath expansions/mods, the only way to play expansion content is to join a Raven Shield (not AS/IW) server hosting AS/IW content, such as `ALLR6 | AthenaSword+IronWrath` (`104.243.46.138:7779`).
+OpenRVS targets the base game, and the expansions above are considered mods by the game engine.
+
+Community map creator Legacy has ported the expansion maps to the base game, and you can play them online on the `ALLR6 | AthenaSword+IronWrath` server (`104.243.46.138:7779`).
