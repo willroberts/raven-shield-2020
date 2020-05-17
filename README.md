@@ -18,7 +18,7 @@ Alternatively, you can use your original CDs if you also patch to version 1.60.
 
 1. Check the [PC Gaming Wiki](https://www.pcgamingwiki.com/wiki/Tom_Clancy%27s_Rainbow_Six_3:_Raven_Shield) for any tweaks you might want to perform.
 1. Borderless Gaming will run the game in a fullscreen window, allowing you to instantly alt-tab. You can [download it from Github for free](https://github.com/Codeusa/Borderless-Gaming/releases/). Note: Click the `BorderlessGamingX.Y.Z_admin_setup.exe` rather than the link to Steam.
-   1. Edit `<YourGameDir>\system\RavenShield.ini` and set `StartupFullscreen` to `False`
+   1. Open `<YourGameDir>\system\RavenShield.ini` in Notepad and set `StartupFullscreen` to `False`
    1. Launch Borderless Gaming
    1. Launch Raven Shield
    1. Add Raven Shield to "Favorites" in Borderless Gaming by selecting it in the left-side list and clicking the `>` button
