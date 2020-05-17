@@ -46,7 +46,7 @@ Ubisoft shut down the authentication servers for Raven Shield in 2016, so we use
 
 Note: Since we are using a fixed list of servers, some features will no longer work. The list cannot be filtered (using the bottom menu) or sorted, and latency will always be displayed as `1000`.
 
-Players can optionally  edit `Servers.list` to choose which servers are displayed when RVSGaming servers cannot be reached. You can force the usage of this file by editing `openrvs.ini` and changing the value of `ServerListURL` to an invalid URL, such as `http://127.0.0.1/servers`.
+Players can optionally edit `Servers.list` to choose which servers are displayed when RVSGaming servers cannot be reached. You can force the usage of this file by editing `openrvs.ini` and changing the value of `ServerListURL` to an invalid URL, such as `http://127.0.0.1/servers`.
 
 ### Servers
 
