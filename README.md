@@ -24,7 +24,7 @@ Alternatively, you can use your original CDs if you also patch to version 1.60.
    1. Add Raven Shield to "Favorites" in Borderless Gaming by selecting it in the left-side list and clicking the `>` button
    1. Close and relaunch Raven Shield to use it with Borderless Gaming
    1. If you have issues getting the game to run in a borderless window, try the `Delay Borderless Window` option by right-clicking Raven Shield in Borderless Gaming
-1. Rebind the controls as desired. For example:
+1. In the game options, rebind the controls as desired. For example:
    1. Bind `Run` to `Shift`
    1. Bind `Reload` to `R`
    1. Bind `Zoom` to `RMB`
