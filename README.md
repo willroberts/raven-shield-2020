@@ -12,7 +12,7 @@ Alternatively, you can use your original CDs if you also patch to version 1.60.
 
 ## Playing the Game
 
-Note: This doc uses `<YourGameDir>` to refer to the place you have Raven Shield installed. For most users, this will be `C:\Program Files (x86)\Steam\steamapps\common\Rainbow Six 3 Gold`.
+**Note:** This doc uses `<YourGameDir>` to refer to the place you have Raven Shield installed. For most users, this will be `C:\Program Files (x86)\Steam\steamapps\common\Rainbow Six 3 Gold`.
 
 ### Essential Improvements
 
