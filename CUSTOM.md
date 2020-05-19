@@ -20,7 +20,7 @@ There are prebuilt sound packs such as the [AllR6 Sound Pack](http://allr6.com/d
 
 Cached content is automatically deleted after 30 days (configurable in `RavenShield.ini`).
 
-If you want to manually clear the cache, open `<YourGameDir>\Cache` and delete its contents. The `.ini` file will be automatically recreated by the game.
+If you want to manually clear the cache, open `<YourGameDir>\Cache` and delete its contents. `Cache.ini` will be automatically recreated by the game.
 
 ## Running Servers with Custom Content
 
