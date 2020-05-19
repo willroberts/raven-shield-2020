@@ -18,7 +18,9 @@ There are prebuilt sound packs such as the [AllR6 Sound Pack](http://allr6.com/d
 
 ## Clearing the Content Cache
 
-If you want to clear the cache of custom content you've downloaded, open `<YourGameDir>\Cache` and delete its contents. The `.ini` file will be automatically recreated by the game.
+Cached content is automatically deleted after 30 days (configurable in `RavenShield.ini`).
+
+If you want to manually clear the cache, open `<YourGameDir>\Cache` and delete its contents. The `.ini` file will be automatically recreated by the game.
 
 ## Running Servers with Custom Content
 
