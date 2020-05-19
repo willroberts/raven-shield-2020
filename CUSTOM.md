@@ -24,17 +24,47 @@ If you want to manually clear the cache, open `<YourGameDir>\Cache` and delete i
 
 ## Running Servers with Custom Content
 
-#### Disk Space Requirements
+### Download Speeds
 
-A basic Linux Droplet (see [SERVERS.md](SERVERS.md)) will give you 25GB of storage, which may not be enough to host your custom content. If that's the case, you'll need to upgrade to a larger Droplet type.
+You may find in testing that download speeds for custom content are much slower than expected. When using a VPS to host game servers, one can expect download speeds of roughly 20KB/s. A basic web host or file server can generally transfer at speeds up to 100Mb/s in short bursts. In order to offload this activity to a faster server/network, we can use Raven Shield's built-in download redirection.
 
-#### Download Speeds
+### Serving Files with Nginx
 
-You may find in testing that download speeds for custom content are much slower than expected. When using a VPS to host game servers, one can expect download speeds of roughly 20KB/s. A basic web host or file server can generally transfer at speeds up to 100Mb/s in short bursts. In order to offload this activity to a faster server/network, we can use Raven Shield's built-in download redirection:
+Let's assume your server is running on Linux with the following directory structure:
 
-1. Configure an HTTP server (such as Nginx, or a paid web hosting service) which can serve files.
-1. Place custom content on the file server in the same directory structure as the game: maps in `/maps/`, textures in `/textures/`, etc.
-1. On your game server, edit `RavenShield.ini` and look for the `RedirectToURL` option. Set this to the URL of your file server, e.g. `http://www.myserver.net/`.
+```
+/opt/rs/maps/
+       /staticmeshes/
+       /textures/
+```
+
+For clients to download custom content, the files must all be on the same HTTP path. In order to avoid copying files to a second location on the server, we can merge these three paths into one with the following Nginx config:
+
+```
+server {
+        listen 80 default_server;
+        listen [::]:80 default_server;
+        root /opt/rs;
+        server_name <YOUR_IP_OR_DNS_HERE>;
+        location ~* ^/(.*)$ {
+                try_files /maps/$1 /staticmeshes/$1 /textures/$1 =404;
+        }
+}
+```
+
+Most of the above config starts an HTTP server which listens on port 80. The important bit is the `location` block, which does the following:
+
+- `~*` allows case-insensitive regular expression matching
+- `^/(.*)$` parses the text between the first `/` and the end of the URL and saves it as `$1`
+- `try_files /maps/$1 /staticmeshes/$1 /textures/$1 =404` will look for your file in `/maps/`, then `/staticmeshes/`, then `/textures` before finally returning a 404 if the file couldn't be found
+
+For example, if you request `http://myserver.com/Streets.utx`, Nginx will try to serve `/opt/rs/maps/Streets.utx` (fails), then `/opt/rs/staticmeshes/Streets.utx` (fails), then `/opt/rs/textures/Streets.utx` (succeeds).
+
+### Directing Clients to Nginx
+
+1. On your game server, edit `RavenShield.ini`
+1. Set `AllowDownloads` to `False`. This will prevent users from downloading files from the game server at slow speeds.
+1. Set the `RedirectToURL` option to the URL of your file server, e.g. `http://www.myserver.com/`. The trailing `/` must be included.
 1. Restart your game server to pick up the new config.
 
 When users connect to your game server, they will be instructed to download all custom content from the file server, resulting in significantly faster downloads. If the client fails to retrieve the file from the file server for any reason, it will fall back to downloading the file from the game server, resulting in slow speeds. If this happens, the player can cancel and rejoin the server to restart the download from the file server.
@@ -43,7 +73,7 @@ When users connect to your game server, they will be instructed to download all 
 
 ### Creating Maps
 
-The map editor, `UnrealEd`, can be found on your hard drive at `<YourGameDir>\system\UnrealEd.exe`.
+The map editor, `UnrealEd`, can be found on your hard drive at `<YourGameDir>\system\UnrealEd.exe`. It should be able to open all base game maps and most custom maps.
 
 See the [RvSMaps.com guide](http://rvsmaps.smclan.org/tut_sounds.htm) for more info.
 
