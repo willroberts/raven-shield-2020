@@ -8,7 +8,7 @@ Alternatively, you can use your original CDs if you also patch to version 1.60.
 
 ## Community Resources
 
-* [Discord](https://discord.com/invite/QnXXqcK)
+* [AllR6 Discord](https://discord.com/invite/QnXXqcK)
 
 ## Playing the Game
 
