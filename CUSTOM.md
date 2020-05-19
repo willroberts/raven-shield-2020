@@ -67,7 +67,7 @@ For example, if you request `http://myserver.com/Streets.utx`, Nginx will try to
 1. Set the `RedirectToURL` option to the URL of your file server, e.g. `http://www.myserver.com/`. The trailing `/` must be included.
 1. Restart your game server to pick up the new config.
 
-When users connect to your game server, they will be instructed to download all custom content from the file server, resulting in significantly faster downloads. If the client fails to retrieve the file from the file server for any reason, it will fall back to downloading the file from the game server, resulting in slow speeds. If this happens, the player can cancel and rejoin the server to restart the download from the file server.
+When users connect to your game server, they will be instructed to download all custom content from the file server, resulting in significantly faster downloads.
 
 ## Creating Custom Content
 
