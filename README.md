@@ -48,7 +48,7 @@ Note: Since we are using a fixed list of servers, some features will no longer w
 
 Players can optionally edit `Servers.list` to choose which servers are displayed when RVSGaming servers cannot be reached. You can force the usage of this file by editing `openrvs.ini` and changing the value of `ServerListURL` to an invalid URL, such as `http://127.0.0.1/servers`.
 
-### Servers
+### Servers Currently Online
 
 See [RVSGaming.org](http://rvsgaming.org) for the latest list. If the site is offline, use [archive.org](https://web.archive.org/web/*/rvsgaming.org) to bring up a previous version of the page.
 
