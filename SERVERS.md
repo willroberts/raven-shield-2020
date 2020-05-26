@@ -37,7 +37,7 @@ The two primary files for server configuration are `system\RavenShield.ini` and 
       * `GameType` should be `R6Game.R6TeamDeathMatchGame` for PVP or `R6Game.R6TerroristHuntCoopGame` for PVE. See game documentation for more mode names.
       * `Maps` should be set to the name of the map you want in the rotation. Each `Maps[]` entry must have a corresponding `GameType[]` entry.
 
-## Method 1 (easy): VPS
+## Method 1: Renting a VPS
 
 This section will cover hosting a Raven Shield server with [MarkMods.com](https://www.markmods.com). MarkMods is one of the few vendors to still offer Raven Shield gameservers.
 
@@ -56,7 +56,7 @@ This section will cover hosting a Raven Shield server with [MarkMods.com](https:
 
 When you finish, test your server and take note of your IP address and port number, and skip ahead to [Publishing Your Server](https://github.com/ijemafe/raven-shield-2020/blob/master/SERVERS.md#publishing-your-server).
 
-## Method 2 (hard): Linux
+## Method 2: Hosting on Linux
 
 This section will cover hosting a Raven Shield server with [DigitalOcean Droplets](https://www.digitalocean.com/products/droplets/). You can also use these steps with your own Linux hardware for self-hosted servers.
 
@@ -83,6 +83,23 @@ If you want to run multiple servers, you may do so on a single Linux VM. Simply 
    1. Start the game with `wine UCC.exe server -ini=RavenShield.init -serverconf=Server.ini`
 
 This will start the server attached to your current terminal window. In order to reliably keep the process running and restart it when it crashes, create a `systemd` unit file, based on the docs [here](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files), which runs the wine command above.
+
+Here is an example `systemd` unit file which might live in `/etc/systemd/system/ravenshield.service`:
+
+```
+[Unit]
+Description=ravenshield
+
+[Service]
+ExecStart=/usr/bin/wine /opt/rs/system/UCC.exe server -ini=/opt/rs/system/RavenShield.ini -servercfg=/opt/rs/system/Server.ini
+Restart=on-failure
+RestartSec=10s
+
+[Install]
+WantedBy=multi-user.target
+```
+
+After changing `systemd` unit files, run `systemctl daemon-reload` to read them. This will let you run `systemctl start ravenshield` to start your server, `systemctl enable ravenshield` to start it automatically. When the process crashes, it will automatically restart it (no more than one attempt every 10 seconds).
 
 When you finish, test your server and take note of your IP address and port number.
 
