@@ -4,16 +4,15 @@ There are two files which can be tweaked to improve game performance:
 
 ## YourGameDir\Mods\RavenShield.mod
 
-1. Under `[Engine.GameEngine]`, increase `CacheSizeMegs` from `32` to `512`. This is the value used by `UnrealEd.exe`, so we know at least this maximum size is supported.
+1. Under `[Engine.GameEngine]`, increase `CacheSizeMegs` from `32` to `512`. This is the value used by `UnrealEd.exe`, so we know at least this maximum size is supported
 
 ## YourGameDir\system\RavenShield.ini
 
 TODO: Investigate these settings:
 
-1. Under `[Engine.GameEngine]`, increase `CacheSizeMegs` from `32` to `512`. This is the value used by `UnrealEd.exe`, so we know at least this maximum size is supported.
-1. TextureMaxLOD=16 (from 12)
-1. MinDesiredFramerate=50 (from 10)
-1. UseCompression=True (from False)
-1. UsePrecaching=False (from True)
-1. UseCompressedLightmaps=False (from True)
-1. DetailTextures=True (from undefined)
+1. Under `[Engine.GameEngine]`, increase `CacheSizeMegs` from `32` to `512`. This is the value used by `UnrealEd.exe`, so we know at least this maximum size is supported
+1. Under `[WinDrv.WindowsClient]`, set `TextureMaxLOD` to `16` (from `12`)
+1. Under `[WinDrv.WindowsClient]`, set `MinDesiredFramerate` to `60` (from `10`)
+1. Under `[D3DDrv.D3DRenderDevice]`, set `UsePrecaching` to `True`
+1. Under `[D3DDrv.D3DRenderDevice]`, set `UseCompressedLightmaps` to `True`
+1. Under `[D3DDrv.D3DRenderDevice]`, set `DetailTextures` to `True`
