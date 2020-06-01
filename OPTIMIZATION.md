@@ -19,3 +19,4 @@ TODO: Investigate these settings:
 1. UseCompressedLightmaps=False (from True)
 1. UseVSync=False (from True)
 1. GoreLevel=3 (from 0)
+1. DetailTextures=True (from undefined)
