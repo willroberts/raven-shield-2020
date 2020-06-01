@@ -15,4 +15,17 @@ If you are still experiencing lag, there are two files which can be tweaked to i
 1. Under `[WinDrv.WindowsClient]`, set `MinDesiredFramerate` to `60` (from `10`)
 1. Under `[D3DDrv.D3DRenderDevice]`, set `UsePrecaching` to `True`
 1. Under `[D3DDrv.D3DRenderDevice]`, set `UseCompressedLightmaps` to `True`
-1. Under `[D3DDrv.D3DRenderDevice]`, set `DetailTextures` to `True`
+
+There are some additional settings here which may be useful to tweak:
+
+```
+[D3DDrv.D3DRenderDevice]
+HighDetailActors=True
+UseTrilinear=True
+UseTripleBuffering=False
+UseHardwareTL=True
+UseHardwareVS=True
+UseCubemaps=True
+MaxPixelShaderVersion=255
+DetailTextures=True
+```
