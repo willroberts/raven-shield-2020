@@ -2,11 +2,11 @@
 
 There are two files which can be tweaked to improve game performance:
 
-## <YourGameDir>\Mods\RavenShield.mod
+## YourGameDir\Mods\RavenShield.mod
 
 1. Under `[Engine.GameEngine]`, increase `CacheSizeMegs` from `32` to `max_value`. Why?
 
-## <YourGameDir>\system\RavenShield.ini
+## YourGameDir\system\RavenShield.ini
 
 TODO: Investigate these settings:
 
