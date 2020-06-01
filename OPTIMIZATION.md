@@ -1,6 +1,8 @@
 # Optimization
 
-There are two files which can be tweaked to improve game performance:
+If you are experiencing lag during gameplay, first test an offline custom mission to eliminate the possibility of Internet lag.
+
+If you are still experiencing lag, there are two files which can be tweaked to improve game performance:
 
 ## YourGameDir\Mods\RavenShield.mod
 
