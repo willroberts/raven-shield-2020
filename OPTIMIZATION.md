@@ -15,8 +15,5 @@ TODO: Investigate these settings:
 1. MinDesiredFramerate=50 (from 10)
 1. UseCompression=True (from False)
 1. UsePrecaching=False (from True)
-1. ReduceMouseLag=True (from False)
 1. UseCompressedLightmaps=False (from True)
-1. UseVSync=False (from True)
-1. GoreLevel=3 (from 0)
 1. DetailTextures=True (from undefined)
