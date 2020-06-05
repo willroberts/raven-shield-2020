@@ -99,14 +99,12 @@ RestartSec=10s
 WantedBy=multi-user.target
 ```
 
-After changing `systemd` unit files, run `systemctl daemon-reload` to read them. This will let you run `systemctl start ravenshield` to start your server, `systemctl enable ravenshield` to start it automatically. When the process crashes, it will automatically restart it (no more than one attempt every 10 seconds).
+After changing `systemd` unit files, run `systemctl daemon-reload` to read them. This will let you run `systemctl start ravenshield` to start your server, and `systemctl enable ravenshield` to start it automatically. When the process crashes, it will automatically restart it (no more than one attempt every 10 seconds).
 
 When you finish, test your server and take note of your IP address and port number.
 
 ## Publishing Your Server
 
-Once the server is ready to go, join the [Discord](https://discord.com/invite/QnXXqcK) and enter the `#general` or `#techsupport` channel. Share the IP address and port number, as well as the name of the server and a bit of information about it.
+Once the server is ready to go, join the [Discord](https://discord.com/invite/QnXXqcK) and enter the `#general-gaming` channel. Ask for Tony's contact info to get the new server added. Send the server name, IP address, port number, and game mode (adversarial or cooperative).
 
 Once the server is added to the list, it will automatically appear when searching for games in multiplayer. Until then, you can use your server by joining its IP.
-
-Alternatively, if you don't want to wait or join by IP, you can run the [openrvs-servers](https://github.com/ijemafe/openrvs-servers) app and give your friends a copy of `openrvs.ini` with your app's IP in it.
