@@ -105,8 +105,6 @@ When you finish, test your server and take note of your IP address and port numb
 
 ## Publishing Your Server
 
-**UPDATE:** Since OpenRVS 1.5, it is no longer necessary to manually get your server added. When servers come online, they self-register with the server list at http://openrvs.org/servers. If your server does not appear, it may be marked as unhealthy. Be sure the game port is accessible from the public Internet.
+Since OpenRVS 1.5, it is no longer necessary to manually get your server added. When servers come online, they self-register with the server list at https://openrvs.org/servers. If your server does not appear, it may be marked as unhealthy, or your client may still be using the old server list. Be sure the game ports on your server are accessible from the public Internet.
 
-Once the server is ready to go, join the [Discord](https://discord.com/invite/QnXXqcK) and enter the `#general-gaming` channel. Ask for Tony's contact info to get the new server added. Send the server name, IP address, port number, and game mode (adversarial or cooperative).
-
-Once the server is added to the list, it will automatically appear when searching for games in multiplayer. Until then, you can use your server by joining its IP.
+Alternatively, you can use your server by directly joining its IP.
