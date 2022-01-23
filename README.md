@@ -52,5 +52,5 @@ See [RVSGaming.org](http://rvsgaming.org) for the latest list. If the site is of
 
 - [Expansions](EXPANSIONS.md)
 - [Mods and Custom Content](CUSTOM.md)
-- [AllR6 Discord](https://discord.com/invite/QnXXqcK)
 - [Hosting a Server](SERVERS.md)
+- [AllR6 Discord](https://discord.com/invite/QnXXqcK)
