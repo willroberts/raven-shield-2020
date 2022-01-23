@@ -6,10 +6,6 @@ Raven Shield (released 2003) is typically [$3-10 on Steam](https://isthereanydea
 
 Alternatively, you can use your original CDs if you also patch to version 1.60.
 
-## Community Resources
-
-* [AllR6 Discord](https://discord.com/invite/QnXXqcK)
-
 ## Playing the Game
 
 **Note:** This doc uses `<YourGameDir>` to refer to the place you have Raven Shield installed. For most users, this will be `C:\Program Files (x86)\Steam\steamapps\common\Rainbow Six 3 Gold`.
@@ -52,14 +48,9 @@ Players can optionally edit `Servers.list` to choose which servers are displayed
 
 See [RVSGaming.org](http://rvsgaming.org) for the latest list. If the site is offline, use [archive.org](https://web.archive.org/web/*/rvsgaming.org) to bring up a previous version of the page.
 
-## Expansions
+## Additional Resources
 
-See [EXPANSIONS.md](EXPANSIONS.md)
-
-## Mods and Custom Content
-
-See [CUSTOM.md](CUSTOM.md)
-
-## Hosting a Server
-
-See [SERVERS.md](SERVERS.md)
+- [Expansions](EXPANSIONS.md)
+- [Mods and Custom Content](CUSTOM.md)
+- [AllR6 Discord](https://discord.com/invite/QnXXqcK)
+- [Hosting a Server](SERVERS.md)
