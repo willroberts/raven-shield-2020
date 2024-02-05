@@ -3,7 +3,6 @@
 ## Obtaining the Game
 
 Raven Shield (released 2003) is typically [$9.99 on Steam](https://store.steampowered.com/app/19830/Tom_Clancys_Rainbow_Six_3_Gold/).
-This version contains the Athena Sword expansion, but not the Iron Wrath expansion (see [EXPANSIONS.md](EXPANSIONS.md)).
 
 Alternatively, you can use your original CDs if you also patch to version 1.60.
 
