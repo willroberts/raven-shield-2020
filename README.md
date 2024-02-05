@@ -32,7 +32,7 @@ Ubisoft shut down the authentication servers for Raven Shield in 2016, so we use
 Note: Since we are using a fixed list of servers, the list cannot be filtered (using the bottom menu) or sorted.
 
 Players can optionally edit `Servers.list` to choose which servers are displayed when online servers cannot be reached.
-You can force the usage of this file by editing `openrvs.ini` and changing the value of `ServerListURL` to an invalid URL, such as `http://127.0.0.1/servers`.
+You can force the usage of this file by editing `openrvs.ini` and changing the value of `ServerURL` to an invalid URL, such as `127.0.0.1`.
 
 ### Servers Currently Online
 
