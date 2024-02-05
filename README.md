@@ -50,6 +50,6 @@ The code which powers this service can be seen [here](https://github.com/willrob
 ## Additional Resources
 
 - [Expansions](EXPANSIONS.md)
-- [Mods and Custom Content](CUSTOM.md)
+- [Mods and Custom Content](MODS.md)
 - [Hosting a Server](SERVERS.md)
 - [AllR6 Discord](https://discord.com/invite/QnXXqcK)
