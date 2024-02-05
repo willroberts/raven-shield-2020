@@ -41,7 +41,7 @@ You can force the usage of this file by editing `openrvs.ini` and changing the v
 ### Servers Currently Online
 
 OpenRVS 1.5 and later will retrieve servers from https://openrvs.org/servers.
-OpenRVS servers will automatically register with this registry, so no one needs to maintain a server list.
+OpenRVS servers will automatically self-register with this registry when they start, so no one needs to maintain a server list.
 The code which powers this service can be seen [here](https://github.com/willroberts/openrvs-registry).
 
 You can see a list of currently active servers at https://openrvs.org/live.
