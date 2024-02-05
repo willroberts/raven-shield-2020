@@ -49,7 +49,7 @@ The code which powers this service can be seen [here](https://github.com/willrob
 
 ### Athena Sword
 
-Athena Sword (March 9 2004) is an expansion which adds 19 maps (including 8 designed for multiplayer), 4 game modes, and 7 weapons.
+Athena Sword, released March 9 2004, is an expansion which adds 19 maps (including 8 designed for multiplayer), 4 game modes, and 7 weapons.
 In the Steam version of Raven Shield, Athena Sword is installed separately in your Steam Library.
 
 Note: Installing Athena Sword in Steam may overwrite `<YourGameDir>\system\R6ClassDefines.ini`.
@@ -64,7 +64,7 @@ To play online, join the `ALLR6 | AthenaSword+IronWrath` server.
 
 ### Iron Wrath
 
-Iron Wrath (June 9 2005) is an expansion which adds 18 maps (including 8 designed for multiplayer), 5 game modes, and 6 weapons.
+Iron Wrath, released June 9 2005, is an expansion which adds 18 maps (including 8 designed for multiplayer), 5 game modes, and 6 weapons.
 
 In order to add Iron Wrath to a Steam installation, follow these steps:
 1. Download Iron Wrath's unpacked files [here](https://www.moddb.com/games/tom-clancys-rainbow-six-3-raven-shield/downloads/rainbow-six-3-iron-wrath-manual-installation).
