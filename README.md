@@ -36,7 +36,7 @@ Note: Since we are using a fixed list of servers, the list cannot be filtered (u
 Players can optionally edit `Servers.list` to choose which servers are displayed when online servers cannot be reached.
 You can force the usage of this file by editing `openrvs.ini` and changing the value of `ServerListURL` to an invalid URL, such as `http://127.0.0.1/servers`.
 
-#### Servers Currently Online
+### Servers Currently Online
 
 OpenRVS 1.5 and later will retrieve servers from https://openrvs.org/servers.
 OpenRVS servers will automatically self-register with this registry when they start, so no one needs to maintain a server list.
@@ -47,7 +47,7 @@ The code which powers this service can be seen [here](https://github.com/willrob
 
 ## Installing Expansions
 
-#### Athena Sword
+### Athena Sword
 
 Athena Sword (March 9 2004) is an expansion which adds 19 maps (including 8 designed for multiplayer), 4 game modes, and 7 weapons.
 In the Steam version of Raven Shield, Athena Sword is installed separately in your Steam Library.
@@ -62,7 +62,7 @@ To play offline:
 
 To play online, join the `ALLR6 | AthenaSword+IronWrath` server.
 
-#### Iron Wrath
+### Iron Wrath
 
 Iron Wrath (June 9 2005) is an expansion which adds 18 maps (including 8 designed for multiplayer), 5 game modes, and 6 weapons.
 
