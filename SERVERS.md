@@ -12,7 +12,7 @@ The two primary files for server configuration are `system\RavenShield.ini` and 
     * `m_iRegSvrPort`: Set to `Port` minus 1000
     * `m_iRSCDKeyPort`: Set to `Port` minus 2000
     * `m_iModCDKeyPort`: Set to `Port` plus 3000
-  * If hosting custom content, you will need to also purchase web hosting in order to avoid slow download speeds for players. Configure a file server with the content your players will need to download, and set `RedirectToURL` to its URL. See [CUSTOM.md](CUSTOM.md) for more info
+  * If hosting custom content, you will need to also purchase web hosting in order to avoid slow download speeds for players. Configure a file server with the content your players will need to download, and set `RedirectToURL` to its URL. See [MODS.md](MODS.md) for more info
 * In `Server.ini`
   * Under `[Engine.R6ServerInfo]`
     * `ServerName` should contain the name of your server
@@ -42,50 +42,53 @@ The two primary files for server configuration are `system\RavenShield.ini` and 
 This section will cover hosting a Raven Shield server with [MarkMods.com](https://www.markmods.com). MarkMods is one of the few vendors to still offer Raven Shield gameservers.
 
 1. From the [Raven Shield page](https://www.markmods.com/gameserverhosting/Rainbow%20Six%203:Raven%20Shield/), choose a number of player slots, a server location, and a billing frequency. Smaller servers will cost around $1/slot, while larger servers can be more efficient (around $0.50/slot).
-1. Finish the signup process.
-1. Open your server in the control panel.
-   1. Under Control Panel, Stop the server.
-   1. Under Configuration, make sure `Use FTP config` is enabled. Save at the bottom.
-   1. Under File Manager, click `Open In Fullscreen` to start a minimal FTP client connected to your server. To open a file, click it in the UI. Save it to disk if you plan to make changes. To update a file, click `Upload Files` in the bottom left and choose the file to upload.
-      1. Install OpenRVS by uploading its files according to the instructions.
-      1. Replace `system\R6GameService.dll` with [the prebuilt copy from this repo](R6GameService.dll). This will eliminate another outbound call to Ubisoft's servers.
-      1. Replace `Mods\RavenShield.mod` with [the copy from this repo](RavenShield.mod). This will enable the OpenRVS server code and beacon code.
-      1. Edit `RavenShield.ini` and `Server.ini` as desired
-         1. In `RavenShield.ini`, set the `Port` value to your assigned port from MarkMods. If connecting to your assigned port takes you to someone else's server, someone may have used your port. If this happens, add 10 to every port number and try again.
-  1. Start the server again when finished. It should now be using the config files from the file manager.
+2. Finish the signup process.
+3. Open your server in the control panel.
+4. Under Control Panel, Stop the server.
+5. Under Configuration, make sure `Use FTP config` is enabled. Save at the bottom.
+6. Under File Manager, click `Open In Fullscreen` to start a minimal FTP client connected to your server. To open a file, click it in the UI. Save it to disk if you plan to make changes. To update a file, click `Upload Files` in the bottom left and choose the file to upload.
+   1. Install OpenRVS by uploading its files according to the instructions.
+   2. Replace `system\R6GameService.dll` with [the prebuilt copy from this repo](R6GameService.dll). This will eliminate another outbound call to Ubisoft's servers.
+   3. Replace `Mods\RavenShield.mod` with [the copy from this repo](RavenShield.mod). This will enable the OpenRVS server code and beacon code.
+   4. Edit `RavenShield.ini` and `Server.ini` as desired
+   5. In `RavenShield.ini`, set the `Port` value to your assigned port from MarkMods. If connecting to your assigned port takes you to someone else's server, someone may have used your port. If this happens, add 10 to every port number and try again.
+7. Start the server again when finished. It should now be using the config files from the file manager.
 
-When you finish, test your server and take note of your IP address and port number, and skip ahead to [Publishing Your Server](https://github.com/ijemafe/raven-shield-2020/blob/master/SERVERS.md#publishing-your-server).
+When you finish, test your server and take note of your IP address and port number, and skip ahead to [Publishing Your Server](https://github.com/willroberts/raven-shield-2020/blob/master/SERVERS.md#publishing-your-server).
 
 ## Method 2: Hosting on Linux
 
-This section will cover hosting a Raven Shield server with [DigitalOcean Droplets](https://www.digitalocean.com/products/droplets/). You can also use these steps with your own Linux hardware for self-hosted servers.
+This section will cover hosting a Raven Shield server with [DigitalOcean Droplets](https://www.digitalocean.com/products/droplets/).
+You can also use these steps with your own Linux hardware for self-hosted servers.
 
-Note: This section assumes you have [a copy of Rainbow Six 3: Gold](https://github.com/ijemafe/raven-shield-2020/blob/master/README.md#obtaining-the-game).
+Note: This section assumes you have [a copy of Rainbow Six 3: Gold](https://github.com/willroberts/raven-shield-2020/blob/master/README.md#obtaining-the-game).
 
-A Raven Shield dedicated server running the base game content will use around 1 CPU, 128MB of memory, and 1GB of disk space. In order to avoid running at capacity, look for VMs with 256MB of memory and 2GB of disk space. To mitigate unbounded memory growth or leaks, you may want to automatically restart game servers once a day.
+A Raven Shield dedicated server running the base game content will use around 1 CPU, 128MB of memory, and 1GB of disk space.
+In order to avoid running at capacity, look for VMs with 256MB of memory and 2GB of disk space.
+To mitigate unbounded memory growth or leaks, you may want to automatically restart game servers once a day.
 
-If you want to run multiple servers, you may do so on a single Linux VM. Simply add 1 CPU, 256MB of memory, and 2GB of disk space for each additional server you want to run on the same instance.
+If you want to run multiple servers, you may do so on a single Linux VM.
+Simply add 1 CPU, 256MB of memory, and 2GB of disk space for each additional server you want to run on the same instance.
 
 1. Create an account on DigitalOcean
-1. Start a Droplet running the latest Ubuntu Server LTS in your preferred region
-1. Log into your Droplet as root and run the following one-time setup commands:
+2. Start a Droplet running the latest Ubuntu Server LTS in your preferred region
+3. Log into your Droplet as root and run the following one-time setup commands:
    1. `dpkg --add-architecture i386` (for 32-bit support)
-   1. `apt update && apt install wine wine32` (install 32-bit Wine to run Raven Shield)
-1. Still as root, create a non-root user which will run the server. Then run these commands:
+   2. `apt update && apt install wine wine32` (install 32-bit Wine to run Raven Shield)
+4. Still as root, create a non-root user which will run the server. Then run these commands:
    1. `mkdir /opt/rs` (create a place to store the game files)
-   1. `chown <YourUser> /opt/rs` (give your user ownership of the game directory)
-1. Log into the Droplet as your non-root user
-   1. Copy the game files to `/opt/rs` on the server
-   1. Install OpenRVS by uploading its files according to the instructions.
-   1. Replace `system\R6GameService.dll` with [the prebuilt copy from this repo](R6GameService.dll). This will eliminate another outbound call to Ubisoft's servers.
-   1. Replace `Mods\RavenShield.mod` with [the copy from this repo](RavenShield.mod). This will enable the OpenRVS server code and beacon code.
-   1. Enter the game's system directory with `cd /opt/rs/system`
-   1. Start the game with `wine UCC.exe server -ini=RavenShield.init -serverconf=Server.ini`
+   2. `chown <YourUser> /opt/rs` (give your user ownership of the game directory)
+5. Log into the Droplet as your non-root user
+6. Copy the game files to `/opt/rs` on the server
+7. Install OpenRVS by uploading its files according to the instructions.
+8. Replace `system\R6GameService.dll` with [the prebuilt copy from this repo](R6GameService.dll). This will eliminate another outbound call to Ubisoft's servers.
+9. Replace `Mods\RavenShield.mod` with [the copy from this repo](RavenShield.mod). This will enable the OpenRVS server code and beacon code.
+10. Enter the game's system directory with `cd /opt/rs/system`
+11. Start the game with `wine UCC.exe server -ini=RavenShield.init -serverconf=Server.ini`
 
-This will start the server attached to your current terminal window. In order to reliably keep the process running and restart it when it crashes, create a `systemd` unit file, based on the docs [here](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files), which runs the wine command above.
-
+This will start the server attached to your current terminal window.
+In order to reliably keep the process running and restart it when it crashes, create a `systemd` unit file which runs the wine command above.
 Here is an example `systemd` unit file which might live in `/etc/systemd/system/ravenshield.service`:
-
 ```
 [Unit]
 Description=ravenshield
@@ -99,12 +102,16 @@ RestartSec=10s
 WantedBy=multi-user.target
 ```
 
-After changing `systemd` unit files, run `systemctl daemon-reload` to read them. This will let you run `systemctl start ravenshield` to start your server, and `systemctl enable ravenshield` to start it automatically. When the process crashes, it will automatically restart it (no more than one attempt every 10 seconds).
+After changing `systemd` unit files, run `systemctl daemon-reload` to read them.
+This will let you run `systemctl start ravenshield` to start your server, and `systemctl enable ravenshield` to start it automatically.
+When the process crashes, it will automatically restart it (no more than one attempt every 10 seconds).
 
 When you finish, test your server and take note of your IP address and port number.
 
 ## Publishing Your Server
 
-Since OpenRVS 1.5, it is no longer necessary to manually get your server added. When servers come online, they self-register with the server list at https://openrvs.org/servers. If your server does not appear, it may be marked as unhealthy, or your client may still be using the old server list. Be sure the game ports on your server are accessible from the public Internet.
+Since OpenRVS 1.5, it is no longer necessary to manually get your server added. When servers come online, they self-register with the server list at https://openrvs.org/servers.
+If your server does not appear, it may be marked as unhealthy, or your client may still be using the old server list.
+Be sure the game ports on your server are accessible from the public Internet, and that the ports are configured as described above.
 
 Alternatively, you can use your server by directly joining its IP.
