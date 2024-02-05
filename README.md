@@ -47,9 +47,12 @@ The code which powers this service can be seen [here](https://github.com/willrob
 You can see a list of currently active servers at https://openrvs.org/live.
 The code which powers this service can be seen [here](https://github.com/willroberts/openrvs-stats).
 
-## Additional Resources
+## Additional Documentation
 
 - [Expansions](EXPANSIONS.md)
 - [Mods and Custom Content](MODS.md)
 - [Hosting a Server](SERVERS.md)
+
+## Community Resources
+
 - [AllR6 Discord](https://discord.com/invite/QnXXqcK)
