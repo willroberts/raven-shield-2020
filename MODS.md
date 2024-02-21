@@ -75,7 +75,7 @@ When users connect to your game server, they will be instructed to download all 
 
 The map editor, `UnrealEd`, can be found on your hard drive at `<YourGameDir>\system\UnrealEd.exe`. It should be able to open all base game maps and most custom maps.
 
-See the [RvSMaps.com guide](http://rvsmaps.smclan.org/tut_sounds.htm) for more info.
+See the [rvsmaps.com guide](https://web.archive.org/web/20190228151835/rvsmaps.smclan.org/tut_sounds.htm) for more info.
 
 ### Creating Mods
 
